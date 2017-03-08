@@ -1,4 +1,14 @@
-# Setup Testflight
+
+# FitnessApp
+
+A fitness app demoing a hue transition of an image with CoreImage APIs for rendering on GPU
+
+<img width="100" src="https://github.com/gauravk92/FitnessApp/raw/master/Resources/Icon-512.png/>
+
+<img width="200" src="
+
+
+### Setup Testflight
 
 1. Create new build configuration in Xcode Projects Editor (Duplication from "Release" config)
 
@@ -16,7 +26,7 @@
 6. Product > Archive
 
 
-# Setup UIAutomation tests
+### Setup UIAutomation tests
 
 1. Create symbolic link to the Pods directory in the root of the project, to integration/
 (Instruments can't follow a relative path further back to the Pods/ for some reason)
