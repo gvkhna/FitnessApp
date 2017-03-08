@@ -3,10 +3,17 @@
 
 A fitness app demoing a hue transition of an image with CoreImage APIs for rendering on GPU
 
-<img width="100" src="https://github.com/gauravk92/FitnessApp/raw/master/Resources/Icon-512.png/>
+<img width="100" src="https://github.com/gauravk92/FitnessApp/raw/master/Resources/Icon-512.png"/>
 
-<img width="200" src="
+<img width="200" src="https://github.com/gauravk92/FitnessApp/raw/master/public/19626020135389.562e61ba160fd.PNG"/>
 
+<img width="200" src="https://github.com/gauravk92/FitnessApp/raw/master/public/330d5420135389.562e61ba85215.PNG"/>
+
+<img width="200" src="https://github.com/gauravk92/FitnessApp/raw/master/public/706ea320135389.562e61ba1a0e4.PNG"/>
+
+<img width="200" src="https://github.com/gauravk92/FitnessApp/blob/master/public/b4624a20135389.562e61b9f2ae6.PNG"/>
+
+<img width="200" src="https://github.com/gauravk92/FitnessApp/raw/master/public/fb494220135389.562e61ba95ef2.PNG"/>
 
 ### Setup Testflight
 
