@@ -1,0 +1,1346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43AD466217571B4D00114492 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43AD466117571B4D00114492 /* CFNetwork.framework */; };
+		9A07F39C1878C42B004A6DE8 /* GfitScanButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A07F39B1878C42B004A6DE8 /* GfitScanButton.m */; };
+		9A07F3A21878CCE4004A6DE8 /* GfitSearchFieldCancelButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A07F3A11878CCE4004A6DE8 /* GfitSearchFieldCancelButton.m */; };
+		9A07F3AE187AA922004A6DE8 /* GfitScanPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A07F3AD187AA922004A6DE8 /* GfitScanPanGestureRecognizer.m */; };
+		9A07F3B1187AA934004A6DE8 /* GfitSearchPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A07F3B0187AA934004A6DE8 /* GfitSearchPanGestureRecognizer.m */; };
+		9A07F3BA187AB9CA004A6DE8 /* GfitSearchDraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A07F3B9187AB9CA004A6DE8 /* GfitSearchDraggableView.m */; };
+		9A07F3BD187AB9D7004A6DE8 /* GfitScanDraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A07F3BC187AB9D7004A6DE8 /* GfitScanDraggableView.m */; };
+		9A07F3C6187AEA8B004A6DE8 /* GfitScanningPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A07F3C5187AEA8B004A6DE8 /* GfitScanningPanGestureRecognizer.m */; };
+		9A07F3D5187D3BE3004A6DE8 /* GfitScanningTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A07F3D4187D3BE3004A6DE8 /* GfitScanningTapGestureRecognizer.m */; };
+		9A07F3D8187D5127004A6DE8 /* GfitBasePanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A07F3D7187D5127004A6DE8 /* GfitBasePanGestureRecognizer.m */; };
+		9A0D917C1909FD08009576CA /* GfitSettingsTableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0D917B1909FD08009576CA /* GfitSettingsTableModel.m */; };
+		9A0D9182190A040D009576CA /* GfitContentNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0D9181190A040D009576CA /* GfitContentNavigationView.m */; };
+		9A0D9184190A0596009576CA /* GfitBaseScreenEdgePanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0D9183190A0596009576CA /* GfitBaseScreenEdgePanGestureRecognizer.m */; };
+		9A0D9188190A0617009576CA /* GfitRootNavigationDropShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0D9187190A0617009576CA /* GfitRootNavigationDropShadowView.m */; };
+		9A0D918B190A0622009576CA /* GfitFakeNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0D918A190A0622009576CA /* GfitFakeNavigationBar.m */; };
+		9A0DB12916EED31A00FF0750 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0DB12816EED31A00FF0750 /* CoreImage.framework */; };
+		9A0DF19D1854BC7300BACEED /* gfitapp-Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0DF19C1854BC7300BACEED /* gfitapp-Constants.m */; };
+		9A104FD618FD5DC400FCC168 /* GfitExerciseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A104FD418FD5DC400FCC168 /* GfitExerciseViewController.m */; };
+		9A104FD718FD5DC400FCC168 /* GfitExerciseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A104FD518FD5DC400FCC168 /* GfitExerciseViewController.xib */; };
+		9A1833D8190AFD2B001ED759 /* GfitContentFakeNavigationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1833D7190AFD2B001ED759 /* GfitContentFakeNavigationDelegate.m */; };
+		9A1833DB190B0822001ED759 /* GfitContentNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1833DA190B0822001ED759 /* GfitContentNavigationBar.m */; };
+		9A1833E4190B1346001ED759 /* UIView+RecursiveLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1833E3190B1346001ED759 /* UIView+RecursiveLayout.m */; };
+		9A18DA3B17710203001360DE /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A18DA3A17710203001360DE /* GLKit.framework */; };
+		9A202D1917C6ECD100AFC2C9 /* LocalizableStartup.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A202D1817C6ECCE00AFC2C9 /* LocalizableStartup.strings */; };
+		9A2565891888F60400058C3B /* GfitMainMenuDynamicAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2565881888F60400058C3B /* GfitMainMenuDynamicAnimator.m */; };
+		9A256592188B3B6E00058C3B /* GfitMainMenuGridDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A256591188B3B6E00058C3B /* GfitMainMenuGridDataSource.m */; };
+		9A2F9015189B5AAF00A7413A /* GfitSearchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2F9014189B5AAF00A7413A /* GfitSearchButton.m */; };
+		9A315A24165F5FF8007D4494 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A315A23165F5FF8007D4494 /* UIKit.framework */; };
+		9A315A26165F5FF8007D4494 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A315A25165F5FF8007D4494 /* Foundation.framework */; };
+		9A315A28165F5FF8007D4494 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A315A27165F5FF8007D4494 /* CoreGraphics.framework */; };
+		9A315A30165F5FF8007D4494 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A315A2F165F5FF8007D4494 /* main.m */; };
+		9A315A34165F5FF8007D4494 /* GfitAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A315A33165F5FF8007D4494 /* GfitAppDelegate.m */; };
+		9A315AB3165F753E007D4494 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A315AB2165F753E007D4494 /* QuartzCore.framework */; };
+		9A3D61E4188B6563009E66A1 /* UIColor+GfitImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3D61E3188B6563009E66A1 /* UIColor+GfitImage.m */; };
+		9A3D6D4B17F28DDB00C875DA /* RedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3D6D4A17F28DDB00C875DA /* RedViewController.m */; };
+		9A3E8EB016773489005EE894 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A3E8EAF16773489005EE894 /* Security.framework */; };
+		9A3E9A7118B571FA00B64503 /* GfitMainMenuScanInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3E9A7018B571FA00B64503 /* GfitMainMenuScanInteractiveTransition.m */; };
+		9A3E9A7418B5ACAA00B64503 /* GfitMainMenuScanDynamicTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3E9A7318B5ACAA00B64503 /* GfitMainMenuScanDynamicTransition.m */; };
+		9A3E9A7718B5ACD000B64503 /* GfitMainMenuSearchDynamicTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3E9A7618B5ACD000B64503 /* GfitMainMenuSearchDynamicTransition.m */; };
+		9A53949A1906F34F002BC397 /* GfitSearchResultsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5394991906F34E002BC397 /* GfitSearchResultsModel.m */; };
+		9A54B1021856886A00DFB8AF /* UIView+GAnimateBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A54B1011856886A00DFB8AF /* UIView+GAnimateBlock.m */; };
+		9A57147018D567E2000C76BE /* GfitHorizontalEdgePanPercentDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF2219F18A601050090E066 /* GfitHorizontalEdgePanPercentDrivenInteractiveTransition.m */; };
+		9A57147618D5A6D2000C76BE /* GfitHorizontalLeftEdgePanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A57147518D5A6D2000C76BE /* GfitHorizontalLeftEdgePanGestureRecognizer.m */; };
+		9A57147918D5A6E0000C76BE /* GfitHorizontalRightEdgePanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A57147818D5A6E0000C76BE /* GfitHorizontalRightEdgePanGestureRecognizer.m */; };
+		9A57147B18D5DE13000C76BE /* main_menu_landscape_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A57147A18D5DE13000C76BE /* main_menu_landscape_bg@2x.png */; };
+		9A57147D18D5F022000C76BE /* search_landscape_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A57147C18D5F022000C76BE /* search_landscape_bg@2x.png */; };
+		9A5FAFCD1859A33400713793 /* gdebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5FAFCC1859A33400713793 /* gdebug.m */; };
+		9A666BFB183B6F670006765D /* UIView+GDropShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A666BFA183B6F670006765D /* UIView+GDropShadow.m */; };
+		9A67831E18F1458B00F267E1 /* GfitHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACC8F221806E475004EE611 /* GfitHTTPSessionManager.m */; };
+		9A68F01A18855E6400EE5F85 /* UIWindow+SBWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A68F01918855E6400EE5F85 /* UIWindow+SBWindow.m */; };
+		9A6971F01875200300EBF0C0 /* GfitSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6971EF1875200300EBF0C0 /* GfitSettingsTableViewController.m */; };
+		9A6971F6187527EB00EBF0C0 /* GfitHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6971F5187527EB00EBF0C0 /* GfitHistoryViewController.m */; };
+		9A71C78218607EDA00377AF1 /* GfitSearchButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A71C78118607EDA00377AF1 /* GfitSearchButtonView.m */; };
+		9A79336C1866107600E6F3CC /* GfitCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A79336B1866107600E6F3CC /* GfitCameraViewController.m */; };
+		9A827D23186CE48C000F9C61 /* GfitSearchField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAFD46B1860725F00E92C81 /* GfitSearchField.m */; };
+		9A84A776167609B100ED5006 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A84A775167609B100ED5006 /* libsqlite3.dylib */; };
+		9A90F77616772FAC00D0AF70 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A90F77516772FAC00D0AF70 /* CoreText.framework */; };
+		9A98CE1B189C3A1C006133AD /* GfitSearchTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A98CE1A189C3A1C006133AD /* GfitSearchTapGestureRecognizer.m */; };
+		9A98CE1E189C3A31006133AD /* GfitScanTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A98CE1D189C3A31006133AD /* GfitScanTapGestureRecognizer.m */; };
+		9A98CE21189C63A7006133AD /* GfitSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A98CE20189C63A7006133AD /* GfitSearchViewController.m */; };
+		9A98CE25189C64E4006133AD /* GfitSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A98CE24189C64E4006133AD /* GfitSearchView.m */; };
+		9A98CE28189C66DB006133AD /* GfitSearchTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A98CE27189C66DB006133AD /* GfitSearchTextFieldView.m */; };
+		9A98CE31189CAF7D006133AD /* GfitMainMenuSearchInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A98CE30189CAF7D006133AD /* GfitMainMenuSearchInteractiveTransition.m */; };
+		9A9BEC9718603EC70040DC92 /* GfitMainMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9BEC9618603EC70040DC92 /* GfitMainMenuView.m */; };
+		9A9BEC9A18603FBE0040DC92 /* GfitMainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9BEC9918603FBE0040DC92 /* GfitMainMenuViewController.m */; };
+		9AA0F92117EE558F0022C9AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AA0F92017EE558F0022C9AA /* Images.xcassets */; };
+		9AA22098186D116C0010FA06 /* GfitScanButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A71C78418607EE600377AF1 /* GfitScanButtonView.m */; };
+		9AA559BE1874D1BC0022D239 /* GfitFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA559BD1874D1BC0022D239 /* GfitFont.m */; };
+		9AA559D01874EA2F0022D239 /* GfitHealthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA559CF1874EA2F0022D239 /* GfitHealthViewController.m */; };
+		9AA559D31874EA5C0022D239 /* GfitHealthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA559D21874EA5C0022D239 /* GfitHealthView.m */; };
+		9AA559D61874EA670022D239 /* GfitHealthModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA559D51874EA670022D239 /* GfitHealthModel.m */; };
+		9AAAEA3916F8695F006B3A7A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AAAEA3816F8695F006B3A7A /* OpenGLES.framework */; };
+		9AABF96E18D916B000863A43 /* GfitSettingMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AABF96D18D916B000863A43 /* GfitSettingMenuTableViewController.m */; };
+		9AAE39C918028A6800FA2E4F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AAE39C818028A6800FA2E4F /* AVFoundation.framework */; };
+		9AAE5EE716885B8D00BA1F82 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AAE5EE616885B8D00BA1F82 /* MapKit.framework */; };
+		9AAE5EF1168860B700BA1F82 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AAE5EF0168860B700BA1F82 /* CoreLocation.framework */; };
+		9AAFD40C186044FE00E92C81 /* GfitHueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAFD40B186044FE00E92C81 /* GfitHueViewController.m */; };
+		9AAFD4121860588300E92C81 /* GfitMenuGridController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAFD4111860588300E92C81 /* GfitMenuGridController.m */; };
+		9AAFD4161860597C00E92C81 /* GfitMenuGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAFD4151860597C00E92C81 /* GfitMenuGridLayout.m */; };
+		9AAFD419186059DB00E92C81 /* GfitMenuGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAFD418186059DB00E92C81 /* GfitMenuGridCell.m */; };
+		9AB8540C1876CBF600B54BE5 /* GfitActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB8540B1876CBF600B54BE5 /* GfitActivityViewController.m */; };
+		9AC02B3F1886A9B80098806E /* GfitBezierTimingLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC02B3E1886A9B80098806E /* GfitBezierTimingLayer.m */; };
+		9AC3C8D11901DD8900DA9834 /* GfitSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3C8D01901DD8900DA9834 /* GfitSearchResult.m */; };
+		9AE2C1DD1872BDB0009A3022 /* menu_grid_activity_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE2C1D61872BDB0009A3022 /* menu_grid_activity_icon@2x.png */; };
+		9AE2C1DE1872BDB0009A3022 /* menu_grid_add_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE2C1D71872BDB0009A3022 /* menu_grid_add_icon@2x.png */; };
+		9AE2C1DF1872BDB0009A3022 /* menu_grid_health_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE2C1D81872BDB0009A3022 /* menu_grid_health_icon@2x.png */; };
+		9AE2C1E01872BDB0009A3022 /* menu_grid_history_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE2C1D91872BDB0009A3022 /* menu_grid_history_icon@2x.png */; };
+		9AE2C1E11872BDB0009A3022 /* menu_grid_info_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE2C1DA1872BDB0009A3022 /* menu_grid_info_icon@2x.png */; };
+		9AE2C1E21872BDB0009A3022 /* menu_grid_more_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE2C1DB1872BDB0009A3022 /* menu_grid_more_icon@2x.png */; };
+		9AE2C1E31872BDB0009A3022 /* menu_grid_settings_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE2C1DC1872BDB0009A3022 /* menu_grid_settings_icon@2x.png */; };
+		9AE2C1E51872BDB5009A3022 /* root_navigation_drop_shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE2C1E41872BDB5009A3022 /* root_navigation_drop_shadow@2x.png */; };
+		9AE5CC311866B69600B54FF1 /* GfitCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE5CC301866B69600B54FF1 /* GfitCameraView.m */; };
+		9AE5CC4518685C0D00B54FF1 /* GfitSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE5CC4418685C0D00B54FF1 /* GfitSearchTableViewController.m */; };
+		9AE5CC4818685D0D00B54FF1 /* GfitSearchTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE5CC4718685D0D00B54FF1 /* GfitSearchTableView.m */; };
+		9AE5CC4B18685D2000B54FF1 /* GfitSearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE5CC4A18685D2000B54FF1 /* GfitSearchTableViewCell.m */; };
+		9AE5CC4D186862AB00B54FF1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AE5CC4C186862AB00B54FF1 /* Localizable.strings */; };
+		9AEDEE85185B66A50071055C /* button_cancel_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDEE6E185B66A50071055C /* button_cancel_highlight@2x.png */; };
+		9AEDEE86185B66A50071055C /* button_scan_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDEE6F185B66A50071055C /* button_scan_bg@2x.png */; };
+		9AEDEE87185B66A50071055C /* button_scan_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDEE70185B66A50071055C /* button_scan_icon@2x.png */; };
+		9AEDEE88185B66A50071055C /* button_search_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDEE71185B66A50071055C /* button_search_bg@2x.png */; };
+		9AEDEE89185B66A50071055C /* button_search_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDEE72185B66A50071055C /* button_search_icon@2x.png */; };
+		9AEDEE94185B66A50071055C /* icon_scan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDEE7D185B66A50071055C /* icon_scan@2x.png */; };
+		9AEDEE95185B66A50071055C /* Icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDEE7E185B66A50071055C /* Icon-512.png */; };
+		9AEDEE96185B66A50071055C /* Icon-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDEE7F185B66A50071055C /* Icon-1024.png */; };
+		9AEDEE97185B66A50071055C /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDEE80185B66A50071055C /* Icon@2x.png */; };
+		9AEDEE9A185B66A50071055C /* search_separator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDEE83185B66A50071055C /* search_separator@2x.png */; };
+		9AEDEE9D185B68800071055C /* scan_status_bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDEE9C185B68800071055C /* scan_status_bar@2x.png */; };
+		9AEEA77E188BC97F00F27A3E /* GfitCameraFocusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEEA77D188BC97F00F27A3E /* GfitCameraFocusView.m */; };
+		9AF2218E18A4EB9E0090E066 /* GfitSerialOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF2218D18A4EB9E0090E066 /* GfitSerialOperationQueue.m */; };
+		9AF2219A18A600D10090E066 /* GfitHorizontalSlidingTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF2219918A600D10090E066 /* GfitHorizontalSlidingTabBarController.m */; };
+		9AF221B018A635DF0090E066 /* GfitHorizontalSlidingTransitionDropShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF221AF18A635DF0090E066 /* GfitHorizontalSlidingTransitionDropShadowView.m */; };
+		9AF221B318A80D370090E066 /* GfitContentNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF221B218A80D370090E066 /* GfitContentNavigationController.m */; };
+		9AF221B618A80D620090E066 /* GfitMainMenuNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF221B518A80D620090E066 /* GfitMainMenuNavigationController.m */; };
+		CD782A19530649FCE5C294B7 /* libPods-gfitapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 337F505DC000EAF6AAB2D2D1 /* libPods-gfitapp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		337F505DC000EAF6AAB2D2D1 /* libPods-gfitapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gfitapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43AD466117571B4D00114492 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5CC2D1A7A9176A0DFF919E06 /* Pods-gfitapp.testflight.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gfitapp.testflight.xcconfig"; path = "Pods/Target Support Files/Pods-gfitapp/Pods-gfitapp.testflight.xcconfig"; sourceTree = "<group>"; };
+		99CABE1E6BDDBDFFF2E7C60D /* Pods-gfitapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gfitapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-gfitapp/Pods-gfitapp.release.xcconfig"; sourceTree = "<group>"; };
+		9A07F39718782913004A6DE8 /* GfitSearchTableModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitSearchTableModel.h; sourceTree = "<group>"; };
+		9A07F39818782913004A6DE8 /* GfitSearchTableModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitSearchTableModel.m; sourceTree = "<group>"; };
+		9A07F39A1878C42B004A6DE8 /* GfitScanButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitScanButton.h; sourceTree = "<group>"; };
+		9A07F39B1878C42B004A6DE8 /* GfitScanButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitScanButton.m; sourceTree = "<group>"; };
+		9A07F3A01878CCE4004A6DE8 /* GfitSearchFieldCancelButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitSearchFieldCancelButton.h; sourceTree = "<group>"; };
+		9A07F3A11878CCE4004A6DE8 /* GfitSearchFieldCancelButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitSearchFieldCancelButton.m; sourceTree = "<group>"; };
+		9A07F3AC187AA922004A6DE8 /* GfitScanPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitScanPanGestureRecognizer.h; sourceTree = "<group>"; };
+		9A07F3AD187AA922004A6DE8 /* GfitScanPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitScanPanGestureRecognizer.m; sourceTree = "<group>"; };
+		9A07F3AF187AA934004A6DE8 /* GfitSearchPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitSearchPanGestureRecognizer.h; sourceTree = "<group>"; };
+		9A07F3B0187AA934004A6DE8 /* GfitSearchPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitSearchPanGestureRecognizer.m; sourceTree = "<group>"; };
+		9A07F3B8187AB9CA004A6DE8 /* GfitSearchDraggableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitSearchDraggableView.h; sourceTree = "<group>"; };
+		9A07F3B9187AB9CA004A6DE8 /* GfitSearchDraggableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitSearchDraggableView.m; sourceTree = "<group>"; };
+		9A07F3BB187AB9D7004A6DE8 /* GfitScanDraggableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitScanDraggableView.h; sourceTree = "<group>"; };
+		9A07F3BC187AB9D7004A6DE8 /* GfitScanDraggableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitScanDraggableView.m; sourceTree = "<group>"; };
+		9A07F3C4187AEA8B004A6DE8 /* GfitScanningPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitScanningPanGestureRecognizer.h; sourceTree = "<group>"; };
+		9A07F3C5187AEA8B004A6DE8 /* GfitScanningPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitScanningPanGestureRecognizer.m; sourceTree = "<group>"; };
+		9A07F3D3187D3BE3004A6DE8 /* GfitScanningTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitScanningTapGestureRecognizer.h; sourceTree = "<group>"; };
+		9A07F3D4187D3BE3004A6DE8 /* GfitScanningTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitScanningTapGestureRecognizer.m; sourceTree = "<group>"; };
+		9A07F3D6187D5127004A6DE8 /* GfitBasePanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitBasePanGestureRecognizer.h; sourceTree = "<group>"; };
+		9A07F3D7187D5127004A6DE8 /* GfitBasePanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitBasePanGestureRecognizer.m; sourceTree = "<group>"; };
+		9A09BC57188655BE008AF6D9 /* MainMenuActivity.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = MainMenuActivity.js; sourceTree = "<group>"; };
+		9A09BC58188655BE008AF6D9 /* MainMenuElements.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = MainMenuElements.js; sourceTree = "<group>"; };
+		9A09BC59188655BE008AF6D9 /* MainMenuGestures.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = MainMenuGestures.js; sourceTree = "<group>"; };
+		9A09BC5A188655BE008AF6D9 /* MainMenuHealth.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = MainMenuHealth.js; sourceTree = "<group>"; };
+		9A09BC5B188655BE008AF6D9 /* MainMenuHistory.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = MainMenuHistory.js; sourceTree = "<group>"; };
+		9A09BC5C188655BE008AF6D9 /* MainMenuScanCode.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = MainMenuScanCode.js; sourceTree = "<group>"; };
+		9A09BC5D188655BE008AF6D9 /* MainMenuSearch.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = MainMenuSearch.js; sourceTree = "<group>"; };
+		9A09BC5E188655BE008AF6D9 /* MainMenuSettings.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = MainMenuSettings.js; sourceTree = "<group>"; };
+		9A09BC5F188656FD008AF6D9 /* MainMenuTests.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = MainMenuTests.js; sourceTree = "<group>"; };
+		9A0D917A1909FD08009576CA /* GfitSettingsTableModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitSettingsTableModel.h; sourceTree = "<group>"; };
+		9A0D917B1909FD08009576CA /* GfitSettingsTableModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitSettingsTableModel.m; sourceTree = "<group>"; };
+		9A0D9180190A040D009576CA /* GfitContentNavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitContentNavigationView.h; sourceTree = "<group>"; };
+		9A0D9181190A040D009576CA /* GfitContentNavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitContentNavigationView.m; sourceTree = "<group>"; };
+		9A0D9183190A0596009576CA /* GfitBaseScreenEdgePanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitBaseScreenEdgePanGestureRecognizer.m; sourceTree = "<group>"; };
+		9A0D9185190A059D009576CA /* GfitBaseScreenEdgePanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitBaseScreenEdgePanGestureRecognizer.h; sourceTree = "<group>"; };
+		9A0D9186190A0617009576CA /* GfitRootNavigationDropShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitRootNavigationDropShadowView.h; sourceTree = "<group>"; };
+		9A0D9187190A0617009576CA /* GfitRootNavigationDropShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitRootNavigationDropShadowView.m; sourceTree = "<group>"; };
+		9A0D9189190A0622009576CA /* GfitFakeNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitFakeNavigationBar.h; sourceTree = "<group>"; };
+		9A0D918A190A0622009576CA /* GfitFakeNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitFakeNavigationBar.m; sourceTree = "<group>"; };
+		9A0DB12816EED31A00FF0750 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		9A0DF19C1854BC7300BACEED /* gfitapp-Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "gfitapp-Constants.m"; sourceTree = "<group>"; };
+		9A104FD318FD5DC400FCC168 /* GfitExerciseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitExerciseViewController.h; sourceTree = "<group>"; };
+		9A104FD418FD5DC400FCC168 /* GfitExerciseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitExerciseViewController.m; sourceTree = "<group>"; };
+		9A104FD518FD5DC400FCC168 /* GfitExerciseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GfitExerciseViewController.xib; sourceTree = "<group>"; };
+		9A1562EB17D5097F00AA2E12 /* GExerciseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GExerciseViewController.h; sourceTree = "<group>"; };
+		9A1562EC17D5097F00AA2E12 /* GExerciseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GExerciseViewController.m; sourceTree = "<group>"; };
+		9A1773B718A2348700D21EE3 /* GfitMenuGridControllerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitMenuGridControllerView.h; sourceTree = "<group>"; };
+		9A1773B818A2348700D21EE3 /* GfitMenuGridControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitMenuGridControllerView.m; sourceTree = "<group>"; };
+		9A1833D6190AFD2B001ED759 /* GfitContentFakeNavigationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitContentFakeNavigationDelegate.h; sourceTree = "<group>"; };
+		9A1833D7190AFD2B001ED759 /* GfitContentFakeNavigationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitContentFakeNavigationDelegate.m; sourceTree = "<group>"; };
+		9A1833D9190B0822001ED759 /* GfitContentNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitContentNavigationBar.h; sourceTree = "<group>"; };
+		9A1833DA190B0822001ED759 /* GfitContentNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitContentNavigationBar.m; sourceTree = "<group>"; };
+		9A1833E2190B1346001ED759 /* UIView+RecursiveLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+RecursiveLayout.h"; path = "gfitapp/UIView+RecursiveLayout.h"; sourceTree = "<group>"; };
+		9A1833E3190B1346001ED759 /* UIView+RecursiveLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+RecursiveLayout.m"; path = "gfitapp/UIView+RecursiveLayout.m"; sourceTree = "<group>"; };
+		9A18DA3A17710203001360DE /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		9A18DA3E1773A4DE001360DE /* GHealthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHealthViewController.h; sourceTree = "<group>"; };
+		9A18DA3F1773A4DF001360DE /* GHealthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHealthViewController.m; sourceTree = "<group>"; };
+		9A1E876817940E0A0082E461 /* HumanModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HumanModelController.h; sourceTree = "<group>"; };
+		9A1E876917940E0A0082E461 /* HumanModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HumanModelController.m; sourceTree = "<group>"; };
+		9A202D1817C6ECCE00AFC2C9 /* LocalizableStartup.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = LocalizableStartup.strings; sourceTree = "<group>"; };
+		9A2565871888F60400058C3B /* GfitMainMenuDynamicAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitMainMenuDynamicAnimator.h; sourceTree = "<group>"; };
+		9A2565881888F60400058C3B /* GfitMainMenuDynamicAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitMainMenuDynamicAnimator.m; sourceTree = "<group>"; };
+		9A25658E1889EF9000058C3B /* GfitMainMenuDynamicAnimatorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GfitMainMenuDynamicAnimatorProtocol.h; sourceTree = "<group>"; };
+		9A25658F188B3AB700058C3B /* GfitMenuGridControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GfitMenuGridControllerDelegate.h; sourceTree = "<group>"; };
+		9A256590188B3B6E00058C3B /* GfitMainMenuGridDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitMainMenuGridDataSource.h; sourceTree = "<group>"; };
+		9A256591188B3B6E00058C3B /* GfitMainMenuGridDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitMainMenuGridDataSource.m; sourceTree = "<group>"; };
+		9A2565A3188B5E2900058C3B /* gfitappTestFlight.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = gfitappTestFlight.sh; sourceTree = SOURCE_ROOT; };
+		9A26B40E1838867F00CFA72D /* gdebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gdebug.h; sourceTree = "<group>"; };
+		9A2F9013189B5AAF00A7413A /* GfitSearchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitSearchButton.h; sourceTree = "<group>"; };
+		9A2F9014189B5AAF00A7413A /* GfitSearchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitSearchButton.m; sourceTree = "<group>"; };
+		9A315A1F165F5FF8007D4494 /* gfitapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gfitapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A315A23165F5FF8007D4494 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9A315A25165F5FF8007D4494 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9A315A27165F5FF8007D4494 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9A315A2B165F5FF8007D4494 /* gfitapp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gfitapp-Info.plist"; sourceTree = "<group>"; };
+		9A315A2F165F5FF8007D4494 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9A315A31165F5FF8007D4494 /* gfitapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gfitapp-Prefix.pch"; sourceTree = "<group>"; };
+		9A315A32165F5FF8007D4494 /* GfitAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GfitAppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		9A315A33165F5FF8007D4494 /* GfitAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GfitAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9A315A4D165F5FF9007D4494 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9A315AB2165F753E007D4494 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9A39DFF4183A282600D329E8 /* gfitapp-Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "gfitapp-Constants.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		9A3D61E1188B620A009E66A1 /* gfitappTestFlight.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = gfitappTestFlight.plist; sourceTree = "<group>"; };
+		9A3D61E2188B6563009E66A1 /* UIColor+GfitImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+GfitImage.h"; path = "gfitapp/UIColor+GfitImage.h"; sourceTree = "<group>"; };
+		9A3D61E3188B6563009E66A1 /* UIColor+GfitImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+GfitImage.m"; path = "gfitapp/UIColor+GfitImage.m"; sourceTree = "<group>"; };
+		9A3D6D4917F28DDB00C875DA /* RedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedViewController.h; sourceTree = "<group>"; };
+		9A3D6D4A17F28DDB00C875DA /* RedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedViewController.m; sourceTree = "<group>"; };
+		9A3D6D4C17F28F1A00C875DA /* GreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenViewController.h; sourceTree = "<group>"; };
+		9A3D6D4D17F28F1A00C875DA /* GreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenViewController.m; sourceTree = "<group>"; };
+		9A3E8EAF16773489005EE894 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9A3E9A6F18B571FA00B64503 /* GfitMainMenuScanInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitMainMenuScanInteractiveTransition.h; sourceTree = "<group>"; };
+		9A3E9A7018B571FA00B64503 /* GfitMainMenuScanInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitMainMenuScanInteractiveTransition.m; sourceTree = "<group>"; };
+		9A3E9A7218B5ACAA00B64503 /* GfitMainMenuScanDynamicTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitMainMenuScanDynamicTransition.h; sourceTree = "<group>"; };
+		9A3E9A7318B5ACAA00B64503 /* GfitMainMenuScanDynamicTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitMainMenuScanDynamicTransition.m; sourceTree = "<group>"; };
+		9A3E9A7518B5ACD000B64503 /* GfitMainMenuSearchDynamicTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitMainMenuSearchDynamicTransition.h; sourceTree = "<group>"; };
+		9A3E9A7618B5ACD000B64503 /* GfitMainMenuSearchDynamicTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitMainMenuSearchDynamicTransition.m; sourceTree = "<group>"; };
+		9A5394981906F34E002BC397 /* GfitSearchResultsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitSearchResultsModel.h; sourceTree = "<group>"; };
+		9A5394991906F34E002BC397 /* GfitSearchResultsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitSearchResultsModel.m; sourceTree = "<group>"; };
+		9A54B0E21854D5D200DFB8AF /* GExerciseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GExerciseView.h; sourceTree = "<group>"; };
+		9A54B0E31854D5D200DFB8AF /* GExerciseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GExerciseView.m; sourceTree = "<group>"; };
+		9A54B0E51854D5E400DFB8AF /* GExerciseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GExerciseModel.h; sourceTree = "<group>"; };
+		9A54B0E61854D5E400DFB8AF /* GExerciseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GExerciseModel.m; sourceTree = "<group>"; };
+		9A54B0EB1854E19900DFB8AF /* GHealthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHealthView.h; sourceTree = "<group>"; };
+		9A54B0EC1854E19900DFB8AF /* GHealthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHealthView.m; sourceTree = "<group>"; };
+		9A54B0EE1854E1A600DFB8AF /* GHealthModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHealthModel.h; sourceTree = "<group>"; };
+		9A54B0EF1854E1A600DFB8AF /* GHealthModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHealthModel.m; sourceTree = "<group>"; };
+		9A54B0F11854E1B400DFB8AF /* GActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GActivityView.h; sourceTree = "<group>"; };
+		9A54B0F21854E1B400DFB8AF /* GActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GActivityView.m; sourceTree = "<group>"; };
+		9A54B0F41854E1BD00DFB8AF /* GActivityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GActivityModel.h; sourceTree = "<group>"; };
+		9A54B0F51854E1BD00DFB8AF /* GActivityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GActivityModel.m; sourceTree = "<group>"; };
+		9A54B0FD1856848300DFB8AF /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
+		9A54B0FE1856848300DFB8AF /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
+		9A54B1001856886A00DFB8AF /* UIView+GAnimateBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+GAnimateBlock.h"; path = "gfitapp/UIView+GAnimateBlock.h"; sourceTree = "<group>"; };
+		9A54B1011856886A00DFB8AF /* UIView+GAnimateBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+GAnimateBlock.m"; path = "gfitapp/UIView+GAnimateBlock.m"; sourceTree = "<group>"; };
+		9A57146F18D56753000C76BE /* GfitHorizontalEdgePanPercentDrivenInteractiveTransitionProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GfitHorizontalEdgePanPercentDrivenInteractiveTransitionProtocol.h; sourceTree = "<group>"; };
+		9A57147418D5A6D2000C76BE /* GfitHorizontalLeftEdgePanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitHorizontalLeftEdgePanGestureRecognizer.h; sourceTree = "<group>"; };
+		9A57147518D5A6D2000C76BE /* GfitHorizontalLeftEdgePanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitHorizontalLeftEdgePanGestureRecognizer.m; sourceTree = "<group>"; };
+		9A57147718D5A6E0000C76BE /* GfitHorizontalRightEdgePanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitHorizontalRightEdgePanGestureRecognizer.h; sourceTree = "<group>"; };
+		9A57147818D5A6E0000C76BE /* GfitHorizontalRightEdgePanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitHorizontalRightEdgePanGestureRecognizer.m; sourceTree = "<group>"; };
+		9A57147A18D5DE13000C76BE /* main_menu_landscape_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_menu_landscape_bg@2x.png"; sourceTree = "<group>"; };
+		9A57147C18D5F022000C76BE /* search_landscape_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search_landscape_bg@2x.png"; sourceTree = "<group>"; };
+		9A5FAFCC1859A33400713793 /* gdebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gdebug.m; sourceTree = "<group>"; };
+		9A666BF9183B6F670006765D /* UIView+GDropShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+GDropShadow.h"; path = "gfitapp/UIView+GDropShadow.h"; sourceTree = "<group>"; };
+		9A666BFA183B6F670006765D /* UIView+GDropShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+GDropShadow.m"; path = "gfitapp/UIView+GDropShadow.m"; sourceTree = "<group>"; };
+		9A68F01818855E6400EE5F85 /* UIWindow+SBWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+SBWindow.h"; sourceTree = "<group>"; };
+		9A68F01918855E6400EE5F85 /* UIWindow+SBWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+SBWindow.m"; sourceTree = "<group>"; };
+		9A6971EE1875200300EBF0C0 /* GfitSettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitSettingsTableViewController.h; sourceTree = "<group>"; };
+		9A6971EF1875200300EBF0C0 /* GfitSettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitSettingsTableViewController.m; sourceTree = "<group>"; };
+		9A6971F4187527EB00EBF0C0 /* GfitHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitHistoryViewController.h; sourceTree = "<group>"; };
+		9A6971F5187527EB00EBF0C0 /* GfitHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitHistoryViewController.m; sourceTree = "<group>"; };
+		9A71C78018607EDA00377AF1 /* GfitSearchButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitSearchButtonView.h; sourceTree = "<group>"; };
+		9A71C78118607EDA00377AF1 /* GfitSearchButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitSearchButtonView.m; sourceTree = "<group>"; };
+		9A71C78318607EE600377AF1 /* GfitScanButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitScanButtonView.h; sourceTree = "<group>"; };
+		9A71C78418607EE600377AF1 /* GfitScanButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitScanButtonView.m; sourceTree = "<group>"; };
+		9A79336A1866107600E6F3CC /* GfitCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitCameraViewController.h; sourceTree = "<group>"; };
+		9A79336B1866107600E6F3CC /* GfitCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitCameraViewController.m; sourceTree = "<group>"; };
+		9A84A775167609B100ED5006 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		9A866A0718F17889005E85A2 /* GfitSearchTableViewControllerCancelGestureProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GfitSearchTableViewControllerCancelGestureProtocol.h; sourceTree = "<group>"; };
+		9A90F77516772FAC00D0AF70 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		9A98CE19189C3A1C006133AD /* GfitSearchTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitSearchTapGestureRecognizer.h; sourceTree = "<group>"; };
+		9A98CE1A189C3A1C006133AD /* GfitSearchTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitSearchTapGestureRecognizer.m; sourceTree = "<group>"; };
+		9A98CE1C189C3A31006133AD /* GfitScanTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitScanTapGestureRecognizer.h; sourceTree = "<group>"; };
+		9A98CE1D189C3A31006133AD /* GfitScanTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitScanTapGestureRecognizer.m; sourceTree = "<group>"; };
+		9A98CE1F189C63A7006133AD /* GfitSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitSearchViewController.h; sourceTree = "<group>"; };
+		9A98CE20189C63A7006133AD /* GfitSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitSearchViewController.m; sourceTree = "<group>"; };
+		9A98CE23189C64E4006133AD /* GfitSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitSearchView.h; sourceTree = "<group>"; };
+		9A98CE24189C64E4006133AD /* GfitSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitSearchView.m; sourceTree = "<group>"; };
+		9A98CE26189C66DB006133AD /* GfitSearchTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitSearchTextFieldView.h; sourceTree = "<group>"; };
+		9A98CE27189C66DB006133AD /* GfitSearchTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitSearchTextFieldView.m; sourceTree = "<group>"; };
+		9A98CE2F189CAF7D006133AD /* GfitMainMenuSearchInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitMainMenuSearchInteractiveTransition.h; sourceTree = "<group>"; };
+		9A98CE30189CAF7D006133AD /* GfitMainMenuSearchInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitMainMenuSearchInteractiveTransition.m; sourceTree = "<group>"; };
+		9A9BEC9518603EC70040DC92 /* GfitMainMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitMainMenuView.h; sourceTree = "<group>"; };
+		9A9BEC9618603EC70040DC92 /* GfitMainMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitMainMenuView.m; sourceTree = "<group>"; };
+		9A9BEC9818603FBE0040DC92 /* GfitMainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitMainMenuViewController.h; sourceTree = "<group>"; };
+		9A9BEC9918603FBE0040DC92 /* GfitMainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitMainMenuViewController.m; sourceTree = "<group>"; };
+		9AA0E1D3170029B700C5BBCF /* GActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GActivityViewController.h; sourceTree = "<group>"; };
+		9AA0E1D4170029B700C5BBCF /* GActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GActivityViewController.m; sourceTree = "<group>"; };
+		9AA0F92017EE558F0022C9AA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9AA559BC1874D1BC0022D239 /* GfitFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitFont.h; sourceTree = "<group>"; };
+		9AA559BD1874D1BC0022D239 /* GfitFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitFont.m; sourceTree = "<group>"; };
+		9AA559CE1874EA2F0022D239 /* GfitHealthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitHealthViewController.h; sourceTree = "<group>"; };
+		9AA559CF1874EA2F0022D239 /* GfitHealthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitHealthViewController.m; sourceTree = "<group>"; };
+		9AA559D11874EA5C0022D239 /* GfitHealthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitHealthView.h; sourceTree = "<group>"; };
+		9AA559D21874EA5C0022D239 /* GfitHealthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitHealthView.m; sourceTree = "<group>"; };
+		9AA559D41874EA670022D239 /* GfitHealthModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitHealthModel.h; sourceTree = "<group>"; };
+		9AA559D51874EA670022D239 /* GfitHealthModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitHealthModel.m; sourceTree = "<group>"; };
+		9AAAEA3816F8695F006B3A7A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		9AABF96C18D916B000863A43 /* GfitSettingMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitSettingMenuTableViewController.h; sourceTree = "<group>"; };
+		9AABF96D18D916B000863A43 /* GfitSettingMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitSettingMenuTableViewController.m; sourceTree = "<group>"; };
+		9AAE39C818028A6800FA2E4F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9AAE5EE616885B8D00BA1F82 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9AAE5EF0168860B700BA1F82 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9AAFD40A186044FE00E92C81 /* GfitHueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitHueViewController.h; sourceTree = "<group>"; };
+		9AAFD40B186044FE00E92C81 /* GfitHueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitHueViewController.m; sourceTree = "<group>"; };
+		9AAFD4101860588300E92C81 /* GfitMenuGridController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitMenuGridController.h; sourceTree = "<group>"; };
+		9AAFD4111860588300E92C81 /* GfitMenuGridController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitMenuGridController.m; sourceTree = "<group>"; };
+		9AAFD4131860589A00E92C81 /* GfitMenuGridControllerDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GfitMenuGridControllerDataSource.h; sourceTree = "<group>"; };
+		9AAFD4141860597C00E92C81 /* GfitMenuGridLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitMenuGridLayout.h; sourceTree = "<group>"; };
+		9AAFD4151860597C00E92C81 /* GfitMenuGridLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitMenuGridLayout.m; sourceTree = "<group>"; };
+		9AAFD417186059DB00E92C81 /* GfitMenuGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitMenuGridCell.h; sourceTree = "<group>"; };
+		9AAFD418186059DB00E92C81 /* GfitMenuGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitMenuGridCell.m; sourceTree = "<group>"; };
+		9AAFD46A1860725F00E92C81 /* GfitSearchField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitSearchField.h; sourceTree = "<group>"; };
+		9AAFD46B1860725F00E92C81 /* GfitSearchField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitSearchField.m; sourceTree = "<group>"; };
+		9AB8540A1876CBF600B54BE5 /* GfitActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitActivityViewController.h; sourceTree = "<group>"; };
+		9AB8540B1876CBF600B54BE5 /* GfitActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitActivityViewController.m; sourceTree = "<group>"; };
+		9AB85415187738BA00B54BE5 /* TestStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TestStoryboard.storyboard; sourceTree = "<group>"; };
+		9AC02B3D1886A9B80098806E /* GfitBezierTimingLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitBezierTimingLayer.h; sourceTree = "<group>"; };
+		9AC02B3E1886A9B80098806E /* GfitBezierTimingLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitBezierTimingLayer.m; sourceTree = "<group>"; };
+		9AC3C8CF1901DD8900DA9834 /* GfitSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitSearchResult.h; sourceTree = "<group>"; };
+		9AC3C8D01901DD8900DA9834 /* GfitSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitSearchResult.m; sourceTree = "<group>"; };
+		9ACC8F211806E475004EE611 /* GfitHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GfitHTTPSessionManager.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		9ACC8F221806E475004EE611 /* GfitHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GfitHTTPSessionManager.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9ACF4A041888C41D007FD9D7 /* run.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = run.js; path = integration/run.js; sourceTree = SOURCE_ROOT; };
+		9AE2C1D61872BDB0009A3022 /* menu_grid_activity_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_grid_activity_icon@2x.png"; sourceTree = "<group>"; };
+		9AE2C1D71872BDB0009A3022 /* menu_grid_add_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_grid_add_icon@2x.png"; sourceTree = "<group>"; };
+		9AE2C1D81872BDB0009A3022 /* menu_grid_health_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_grid_health_icon@2x.png"; sourceTree = "<group>"; };
+		9AE2C1D91872BDB0009A3022 /* menu_grid_history_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_grid_history_icon@2x.png"; sourceTree = "<group>"; };
+		9AE2C1DA1872BDB0009A3022 /* menu_grid_info_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_grid_info_icon@2x.png"; sourceTree = "<group>"; };
+		9AE2C1DB1872BDB0009A3022 /* menu_grid_more_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_grid_more_icon@2x.png"; sourceTree = "<group>"; };
+		9AE2C1DC1872BDB0009A3022 /* menu_grid_settings_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_grid_settings_icon@2x.png"; sourceTree = "<group>"; };
+		9AE2C1E41872BDB5009A3022 /* root_navigation_drop_shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "root_navigation_drop_shadow@2x.png"; sourceTree = "<group>"; };
+		9AE5CC2F1866B69600B54FF1 /* GfitCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitCameraView.h; sourceTree = "<group>"; };
+		9AE5CC301866B69600B54FF1 /* GfitCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitCameraView.m; sourceTree = "<group>"; };
+		9AE5CC4318685C0D00B54FF1 /* GfitSearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitSearchTableViewController.h; sourceTree = "<group>"; };
+		9AE5CC4418685C0D00B54FF1 /* GfitSearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitSearchTableViewController.m; sourceTree = "<group>"; };
+		9AE5CC4618685D0D00B54FF1 /* GfitSearchTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitSearchTableView.h; sourceTree = "<group>"; };
+		9AE5CC4718685D0D00B54FF1 /* GfitSearchTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitSearchTableView.m; sourceTree = "<group>"; };
+		9AE5CC4918685D2000B54FF1 /* GfitSearchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitSearchTableViewCell.h; sourceTree = "<group>"; };
+		9AE5CC4A18685D2000B54FF1 /* GfitSearchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitSearchTableViewCell.m; sourceTree = "<group>"; };
+		9AE5CC4C186862AB00B54FF1 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		9AEA2C2518864C3F000899A2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9AEA2C381886535A000899A2 /* dump.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = dump.js; path = integration/dump.js; sourceTree = SOURCE_ROOT; };
+		9AEA2C3A1886535A000899A2 /* MainMenuGestures.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = MainMenuGestures.js; sourceTree = "<group>"; };
+		9AEA2C3B1886535A000899A2 /* RootNavigation.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = RootNavigation.js; sourceTree = "<group>"; };
+		9AEA2C3E1886535A000899A2 /* header.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = header.js; path = integration/header.js; sourceTree = SOURCE_ROOT; };
+		9AEDEE6E185B66A50071055C /* button_cancel_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_cancel_highlight@2x.png"; sourceTree = "<group>"; };
+		9AEDEE6F185B66A50071055C /* button_scan_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_scan_bg@2x.png"; sourceTree = "<group>"; };
+		9AEDEE70185B66A50071055C /* button_scan_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_scan_icon@2x.png"; sourceTree = "<group>"; };
+		9AEDEE71185B66A50071055C /* button_search_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_search_bg@2x.png"; sourceTree = "<group>"; };
+		9AEDEE72185B66A50071055C /* button_search_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_search_icon@2x.png"; sourceTree = "<group>"; };
+		9AEDEE7D185B66A50071055C /* icon_scan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_scan@2x.png"; sourceTree = "<group>"; };
+		9AEDEE7E185B66A50071055C /* Icon-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-512.png"; sourceTree = "<group>"; };
+		9AEDEE7F185B66A50071055C /* Icon-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-1024.png"; sourceTree = "<group>"; };
+		9AEDEE80185B66A50071055C /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		9AEDEE83185B66A50071055C /* search_separator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search_separator@2x.png"; sourceTree = "<group>"; };
+		9AEDEE9C185B68800071055C /* scan_status_bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scan_status_bar@2x.png"; sourceTree = "<group>"; };
+		9AEEA77C188BC97F00F27A3E /* GfitCameraFocusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitCameraFocusView.h; sourceTree = "<group>"; };
+		9AEEA77D188BC97F00F27A3E /* GfitCameraFocusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitCameraFocusView.m; sourceTree = "<group>"; };
+		9AF2218C18A4EB9E0090E066 /* GfitSerialOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitSerialOperationQueue.h; sourceTree = "<group>"; };
+		9AF2218D18A4EB9E0090E066 /* GfitSerialOperationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitSerialOperationQueue.m; sourceTree = "<group>"; };
+		9AF2219818A600D10090E066 /* GfitHorizontalSlidingTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitHorizontalSlidingTabBarController.h; sourceTree = "<group>"; };
+		9AF2219918A600D10090E066 /* GfitHorizontalSlidingTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitHorizontalSlidingTabBarController.m; sourceTree = "<group>"; };
+		9AF2219E18A601050090E066 /* GfitHorizontalEdgePanPercentDrivenInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitHorizontalEdgePanPercentDrivenInteractiveTransition.h; sourceTree = "<group>"; };
+		9AF2219F18A601050090E066 /* GfitHorizontalEdgePanPercentDrivenInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitHorizontalEdgePanPercentDrivenInteractiveTransition.m; sourceTree = "<group>"; };
+		9AF221A118A62E7F0090E066 /* GfitHorizontalSlidingTabBarDelegateProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GfitHorizontalSlidingTabBarDelegateProtocol.h; sourceTree = "<group>"; };
+		9AF221AE18A635DF0090E066 /* GfitHorizontalSlidingTransitionDropShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitHorizontalSlidingTransitionDropShadowView.h; sourceTree = "<group>"; };
+		9AF221AF18A635DF0090E066 /* GfitHorizontalSlidingTransitionDropShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitHorizontalSlidingTransitionDropShadowView.m; sourceTree = "<group>"; };
+		9AF221B118A80D370090E066 /* GfitContentNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitContentNavigationController.h; sourceTree = "<group>"; };
+		9AF221B218A80D370090E066 /* GfitContentNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitContentNavigationController.m; sourceTree = "<group>"; };
+		9AF221B418A80D620090E066 /* GfitMainMenuNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfitMainMenuNavigationController.h; sourceTree = "<group>"; };
+		9AF221B518A80D620090E066 /* GfitMainMenuNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GfitMainMenuNavigationController.m; sourceTree = "<group>"; };
+		9AF6608317E5842D009DA081 /* ColoredBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColoredBarChart.h; path = gfitapp/ColoredBarChart.h; sourceTree = "<group>"; };
+		9AF6608417E5842D009DA081 /* ColoredBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColoredBarChart.m; path = gfitapp/ColoredBarChart.m; sourceTree = "<group>"; };
+		9AF6608517E5842D009DA081 /* GradientScatterPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GradientScatterPlot.h; path = gfitapp/GradientScatterPlot.h; sourceTree = "<group>"; };
+		9AF6608617E5842D009DA081 /* GradientScatterPlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GradientScatterPlot.m; path = gfitapp/GradientScatterPlot.m; sourceTree = "<group>"; };
+		9AF6608717E5842D009DA081 /* RealTimePlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RealTimePlot.h; path = gfitapp/RealTimePlot.h; sourceTree = "<group>"; };
+		9AF6608817E5842D009DA081 /* RealTimePlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RealTimePlot.m; path = gfitapp/RealTimePlot.m; sourceTree = "<group>"; };
+		9AF6608C17E5843F009DA081 /* PlotItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlotItem.h; path = gfitapp/PlotItem.h; sourceTree = "<group>"; };
+		9AF6608D17E5843F009DA081 /* PlotItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlotItem.m; path = gfitapp/PlotItem.m; sourceTree = "<group>"; };
+		9AF6609217E5AC19009DA081 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = gfitapp/DetailViewController.h; sourceTree = "<group>"; };
+		9AF6609317E5AC19009DA081 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = gfitapp/DetailViewController.m; sourceTree = "<group>"; };
+		ECE895F0922E2C39C0BBBA1A /* Pods-gfitapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gfitapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gfitapp/Pods-gfitapp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A315A1C165F5FF8007D4494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AAE39C918028A6800FA2E4F /* AVFoundation.framework in Frameworks */,
+				9A18DA3B17710203001360DE /* GLKit.framework in Frameworks */,
+				9AAAEA3916F8695F006B3A7A /* OpenGLES.framework in Frameworks */,
+				9A0DB12916EED31A00FF0750 /* CoreImage.framework in Frameworks */,
+				9AAE5EF1168860B700BA1F82 /* CoreLocation.framework in Frameworks */,
+				9AAE5EE716885B8D00BA1F82 /* MapKit.framework in Frameworks */,
+				9A3E8EB016773489005EE894 /* Security.framework in Frameworks */,
+				9A90F77616772FAC00D0AF70 /* CoreText.framework in Frameworks */,
+				9A84A776167609B100ED5006 /* libsqlite3.dylib in Frameworks */,
+				9A315AB3165F753E007D4494 /* QuartzCore.framework in Frameworks */,
+				9A315A28165F5FF8007D4494 /* CoreGraphics.framework in Frameworks */,
+				9A315A24165F5FF8007D4494 /* UIKit.framework in Frameworks */,
+				9A315A26165F5FF8007D4494 /* Foundation.framework in Frameworks */,
+				43AD466217571B4D00114492 /* CFNetwork.framework in Frameworks */,
+				CD782A19530649FCE5C294B7 /* libPods-gfitapp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E72A2927716D39A4563ED57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECE895F0922E2C39C0BBBA1A /* Pods-gfitapp.debug.xcconfig */,
+				99CABE1E6BDDBDFFF2E7C60D /* Pods-gfitapp.release.xcconfig */,
+				5CC2D1A7A9176A0DFF919E06 /* Pods-gfitapp.testflight.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A0D917D190A03DE009576CA /* Horizontal Sliding Gesture Recognizers */ = {
+			isa = PBXGroup;
+			children = (
+				9A0D9185190A059D009576CA /* GfitBaseScreenEdgePanGestureRecognizer.h */,
+				9A0D9183190A0596009576CA /* GfitBaseScreenEdgePanGestureRecognizer.m */,
+				9A57147418D5A6D2000C76BE /* GfitHorizontalLeftEdgePanGestureRecognizer.h */,
+				9A57147518D5A6D2000C76BE /* GfitHorizontalLeftEdgePanGestureRecognizer.m */,
+				9A57147718D5A6E0000C76BE /* GfitHorizontalRightEdgePanGestureRecognizer.h */,
+				9A57147818D5A6E0000C76BE /* GfitHorizontalRightEdgePanGestureRecognizer.m */,
+			);
+			name = "Horizontal Sliding Gesture Recognizers";
+			sourceTree = "<group>";
+		};
+		9A0D917E190A03ED009576CA /* Content Navigation Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9AF221B118A80D370090E066 /* GfitContentNavigationController.h */,
+				9AF221B218A80D370090E066 /* GfitContentNavigationController.m */,
+				9A0D9180190A040D009576CA /* GfitContentNavigationView.h */,
+				9A0D9181190A040D009576CA /* GfitContentNavigationView.m */,
+				9A1833D6190AFD2B001ED759 /* GfitContentFakeNavigationDelegate.h */,
+				9A1833D7190AFD2B001ED759 /* GfitContentFakeNavigationDelegate.m */,
+				9A1833D9190B0822001ED759 /* GfitContentNavigationBar.h */,
+				9A1833DA190B0822001ED759 /* GfitContentNavigationBar.m */,
+			);
+			name = "Content Navigation Controller";
+			sourceTree = "<group>";
+		};
+		9A0D917F190A03FB009576CA /* Main Menu Navigation Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9AF221B418A80D620090E066 /* GfitMainMenuNavigationController.h */,
+				9AF221B518A80D620090E066 /* GfitMainMenuNavigationController.m */,
+			);
+			name = "Main Menu Navigation Controller";
+			sourceTree = "<group>";
+		};
+		9A1977631845C39D00F712BB /* Hue View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9AAFD40A186044FE00E92C81 /* GfitHueViewController.h */,
+				9AAFD40B186044FE00E92C81 /* GfitHueViewController.m */,
+			);
+			name = "Hue View Controller";
+			sourceTree = "<group>";
+		};
+		9A19776B1849A75000F712BB /* Menu Grid Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9AAFD4101860588300E92C81 /* GfitMenuGridController.h */,
+				9AAFD4131860589A00E92C81 /* GfitMenuGridControllerDataSource.h */,
+				9A25658F188B3AB700058C3B /* GfitMenuGridControllerDelegate.h */,
+				9AAFD4111860588300E92C81 /* GfitMenuGridController.m */,
+				9AAFD417186059DB00E92C81 /* GfitMenuGridCell.h */,
+				9AAFD418186059DB00E92C81 /* GfitMenuGridCell.m */,
+				9AAFD4141860597C00E92C81 /* GfitMenuGridLayout.h */,
+				9AAFD4151860597C00E92C81 /* GfitMenuGridLayout.m */,
+				9A1773B718A2348700D21EE3 /* GfitMenuGridControllerView.h */,
+				9A1773B818A2348700D21EE3 /* GfitMenuGridControllerView.m */,
+			);
+			name = "Menu Grid Controller";
+			sourceTree = "<group>";
+		};
+		9A315A14165F5FF8007D4494 = {
+			isa = PBXGroup;
+			children = (
+				9A315A29165F5FF8007D4494 /* gfitapp */,
+				9A315A22165F5FF8007D4494 /* Frameworks */,
+				9A315A20165F5FF8007D4494 /* Products */,
+				8E72A2927716D39A4563ED57 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		9A315A20165F5FF8007D4494 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A315A1F165F5FF8007D4494 /* gfitapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A315A22165F5FF8007D4494 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AAE39C818028A6800FA2E4F /* AVFoundation.framework */,
+				9A18DA3A17710203001360DE /* GLKit.framework */,
+				43AD466117571B4D00114492 /* CFNetwork.framework */,
+				9AAAEA3816F8695F006B3A7A /* OpenGLES.framework */,
+				9A0DB12816EED31A00FF0750 /* CoreImage.framework */,
+				9AAE5EF0168860B700BA1F82 /* CoreLocation.framework */,
+				9AAE5EE616885B8D00BA1F82 /* MapKit.framework */,
+				9A3E8EAF16773489005EE894 /* Security.framework */,
+				9A90F77516772FAC00D0AF70 /* CoreText.framework */,
+				9A84A775167609B100ED5006 /* libsqlite3.dylib */,
+				9A315AB2165F753E007D4494 /* QuartzCore.framework */,
+				9A315A23165F5FF8007D4494 /* UIKit.framework */,
+				9A315A25165F5FF8007D4494 /* Foundation.framework */,
+				9A315A27165F5FF8007D4494 /* CoreGraphics.framework */,
+				9A315A4D165F5FF9007D4494 /* SenTestingKit.framework */,
+				9AEA2C2518864C3F000899A2 /* XCTest.framework */,
+				337F505DC000EAF6AAB2D2D1 /* libPods-gfitapp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A315A29165F5FF8007D4494 /* gfitapp */ = {
+			isa = PBXGroup;
+			children = (
+				9A315A32165F5FF8007D4494 /* GfitAppDelegate.h */,
+				9A315A33165F5FF8007D4494 /* GfitAppDelegate.m */,
+				9ACC8F211806E475004EE611 /* GfitHTTPSessionManager.h */,
+				9ACC8F221806E475004EE611 /* GfitHTTPSessionManager.m */,
+				9A74538A1805DB8400A1806B /* Horizontal Sliding Tab Bar Controller */,
+				9A19776B1849A75000F712BB /* Menu Grid Controller */,
+				9A9BEC9118603E560040DC92 /* Main Menu View Controller */,
+				9A98CE22189C63B0006133AD /* Search View Controller */,
+				9A50EC2918458B5B009C8348 /* Camera View Controller */,
+				9A86E1FD17FD5BD7002562D1 /* Health View Controller */,
+				9A86E1FE17FD5BE0002562D1 /* Activity View Controller */,
+				9A86E1FF17FD5BE9002562D1 /* Exercise View Controller */,
+				9A6971F7187527EE00EBF0C0 /* History View Controller */,
+				9A86E20017FD5BF7002562D1 /* Settings View Controller */,
+				9A86E20117FD5C03002562D1 /* HumanModel View */,
+				9A86E1F517FD5734002562D1 /* Categories */,
+				9A86E1F917FD5B89002562D1 /* Subclasses */,
+				9A44C24318038542000BAA77 /* Debug objects */,
+				9A315A2A165F5FF8007D4494 /* Supporting Files */,
+				9ACE01841685311C0055475D /* Resources */,
+				9AEA2C3718865331000899A2 /* gfitappTests */,
+				9AA0F92017EE558F0022C9AA /* Images.xcassets */,
+			);
+			path = gfitapp;
+			sourceTree = "<group>";
+		};
+		9A315A2A165F5FF8007D4494 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A3D61E1188B620A009E66A1 /* gfitappTestFlight.plist */,
+				9A2565A3188B5E2900058C3B /* gfitappTestFlight.sh */,
+				9A315A31165F5FF8007D4494 /* gfitapp-Prefix.pch */,
+				9A39DFF4183A282600D329E8 /* gfitapp-Constants.h */,
+				9A0DF19C1854BC7300BACEED /* gfitapp-Constants.m */,
+				9A315A2B165F5FF8007D4494 /* gfitapp-Info.plist */,
+				9A315A2F165F5FF8007D4494 /* main.m */,
+				9AE5CC4C186862AB00B54FF1 /* Localizable.strings */,
+				9A202D1817C6ECCE00AFC2C9 /* LocalizableStartup.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A44C24318038542000BAA77 /* Debug objects */ = {
+			isa = PBXGroup;
+			children = (
+				9A26B40E1838867F00CFA72D /* gdebug.h */,
+				9A5FAFCC1859A33400713793 /* gdebug.m */,
+				9A3D6D4C17F28F1A00C875DA /* GreenViewController.h */,
+				9A3D6D4D17F28F1A00C875DA /* GreenViewController.m */,
+				9A3D6D4917F28DDB00C875DA /* RedViewController.h */,
+				9A3D6D4A17F28DDB00C875DA /* RedViewController.m */,
+				9A54B0FD1856848300DFB8AF /* BlueViewController.h */,
+				9A54B0FE1856848300DFB8AF /* BlueViewController.m */,
+			);
+			name = "Debug objects";
+			sourceTree = "<group>";
+		};
+		9A50EC2918458B5B009C8348 /* Camera View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A79336A1866107600E6F3CC /* GfitCameraViewController.h */,
+				9A79336B1866107600E6F3CC /* GfitCameraViewController.m */,
+				9AE5CC2F1866B69600B54FF1 /* GfitCameraView.h */,
+				9AE5CC301866B69600B54FF1 /* GfitCameraView.m */,
+				9AEEA77C188BC97F00F27A3E /* GfitCameraFocusView.h */,
+				9AEEA77D188BC97F00F27A3E /* GfitCameraFocusView.m */,
+			);
+			name = "Camera View Controller";
+			sourceTree = "<group>";
+		};
+		9A54B10F18569FB900DFB8AF /* Main Menu View Objects */ = {
+			isa = PBXGroup;
+			children = (
+				9A07F3B8187AB9CA004A6DE8 /* GfitSearchDraggableView.h */,
+				9A07F3B9187AB9CA004A6DE8 /* GfitSearchDraggableView.m */,
+				9A07F3BB187AB9D7004A6DE8 /* GfitScanDraggableView.h */,
+				9A07F3BC187AB9D7004A6DE8 /* GfitScanDraggableView.m */,
+				9A71C78018607EDA00377AF1 /* GfitSearchButtonView.h */,
+				9A71C78118607EDA00377AF1 /* GfitSearchButtonView.m */,
+				9A71C78318607EE600377AF1 /* GfitScanButtonView.h */,
+				9A71C78418607EE600377AF1 /* GfitScanButtonView.m */,
+				9A2F9013189B5AAF00A7413A /* GfitSearchButton.h */,
+				9A2F9014189B5AAF00A7413A /* GfitSearchButton.m */,
+				9A07F39A1878C42B004A6DE8 /* GfitScanButton.h */,
+				9A07F39B1878C42B004A6DE8 /* GfitScanButton.m */,
+			);
+			name = "Main Menu View Objects";
+			sourceTree = "<group>";
+		};
+		9A6971F7187527EE00EBF0C0 /* History View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A6971F4187527EB00EBF0C0 /* GfitHistoryViewController.h */,
+				9A6971F5187527EB00EBF0C0 /* GfitHistoryViewController.m */,
+			);
+			name = "History View Controller";
+			sourceTree = "<group>";
+		};
+		9A74538A1805DB8400A1806B /* Horizontal Sliding Tab Bar Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9AF2219818A600D10090E066 /* GfitHorizontalSlidingTabBarController.h */,
+				9AF2219918A600D10090E066 /* GfitHorizontalSlidingTabBarController.m */,
+				9AF221A118A62E7F0090E066 /* GfitHorizontalSlidingTabBarDelegateProtocol.h */,
+				9AF221AE18A635DF0090E066 /* GfitHorizontalSlidingTransitionDropShadowView.h */,
+				9AF221AF18A635DF0090E066 /* GfitHorizontalSlidingTransitionDropShadowView.m */,
+				9AF2219E18A601050090E066 /* GfitHorizontalEdgePanPercentDrivenInteractiveTransition.h */,
+				9AF2219F18A601050090E066 /* GfitHorizontalEdgePanPercentDrivenInteractiveTransition.m */,
+				9A57146F18D56753000C76BE /* GfitHorizontalEdgePanPercentDrivenInteractiveTransitionProtocol.h */,
+				9A68F01818855E6400EE5F85 /* UIWindow+SBWindow.h */,
+				9A68F01918855E6400EE5F85 /* UIWindow+SBWindow.m */,
+				9A0D9189190A0622009576CA /* GfitFakeNavigationBar.h */,
+				9A0D918A190A0622009576CA /* GfitFakeNavigationBar.m */,
+				9A0D9186190A0617009576CA /* GfitRootNavigationDropShadowView.h */,
+				9A0D9187190A0617009576CA /* GfitRootNavigationDropShadowView.m */,
+				9A0D917F190A03FB009576CA /* Main Menu Navigation Controller */,
+				9A0D917E190A03ED009576CA /* Content Navigation Controller */,
+				9A0D917D190A03DE009576CA /* Horizontal Sliding Gesture Recognizers */,
+			);
+			name = "Horizontal Sliding Tab Bar Controller";
+			sourceTree = "<group>";
+		};
+		9A86E1F517FD5734002562D1 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				9A666BF9183B6F670006765D /* UIView+GDropShadow.h */,
+				9A666BFA183B6F670006765D /* UIView+GDropShadow.m */,
+				9A54B1001856886A00DFB8AF /* UIView+GAnimateBlock.h */,
+				9A54B1011856886A00DFB8AF /* UIView+GAnimateBlock.m */,
+				9A3D61E2188B6563009E66A1 /* UIColor+GfitImage.h */,
+				9A3D61E3188B6563009E66A1 /* UIColor+GfitImage.m */,
+				9A1833E2190B1346001ED759 /* UIView+RecursiveLayout.h */,
+				9A1833E3190B1346001ED759 /* UIView+RecursiveLayout.m */,
+			);
+			name = Categories;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		9A86E1F917FD5B89002562D1 /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				9AA559BC1874D1BC0022D239 /* GfitFont.h */,
+				9AA559BD1874D1BC0022D239 /* GfitFont.m */,
+				9AC02B3D1886A9B80098806E /* GfitBezierTimingLayer.h */,
+				9AC02B3E1886A9B80098806E /* GfitBezierTimingLayer.m */,
+				9AF2218C18A4EB9E0090E066 /* GfitSerialOperationQueue.h */,
+				9AF2218D18A4EB9E0090E066 /* GfitSerialOperationQueue.m */,
+			);
+			name = Subclasses;
+			sourceTree = "<group>";
+		};
+		9A86E1FD17FD5BD7002562D1 /* Health View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9AA559CE1874EA2F0022D239 /* GfitHealthViewController.h */,
+				9AA559CF1874EA2F0022D239 /* GfitHealthViewController.m */,
+				9AA559D11874EA5C0022D239 /* GfitHealthView.h */,
+				9AA559D21874EA5C0022D239 /* GfitHealthView.m */,
+				9AA559D41874EA670022D239 /* GfitHealthModel.h */,
+				9AA559D51874EA670022D239 /* GfitHealthModel.m */,
+				9A18DA3E1773A4DE001360DE /* GHealthViewController.h */,
+				9A18DA3F1773A4DF001360DE /* GHealthViewController.m */,
+				9A54B0EB1854E19900DFB8AF /* GHealthView.h */,
+				9A54B0EC1854E19900DFB8AF /* GHealthView.m */,
+				9A54B0EE1854E1A600DFB8AF /* GHealthModel.h */,
+				9A54B0EF1854E1A600DFB8AF /* GHealthModel.m */,
+			);
+			name = "Health View Controller";
+			sourceTree = "<group>";
+		};
+		9A86E1FE17FD5BE0002562D1 /* Activity View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9AB85415187738BA00B54BE5 /* TestStoryboard.storyboard */,
+				9AF6607917E583B8009DA081 /* Graph Objects */,
+				9AA0E1D3170029B700C5BBCF /* GActivityViewController.h */,
+				9AA0E1D4170029B700C5BBCF /* GActivityViewController.m */,
+				9A54B0F11854E1B400DFB8AF /* GActivityView.h */,
+				9A54B0F21854E1B400DFB8AF /* GActivityView.m */,
+				9A54B0F41854E1BD00DFB8AF /* GActivityModel.h */,
+				9A54B0F51854E1BD00DFB8AF /* GActivityModel.m */,
+				9AB8540A1876CBF600B54BE5 /* GfitActivityViewController.h */,
+				9AB8540B1876CBF600B54BE5 /* GfitActivityViewController.m */,
+			);
+			name = "Activity View Controller";
+			sourceTree = "<group>";
+		};
+		9A86E1FF17FD5BE9002562D1 /* Exercise View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A1562EB17D5097F00AA2E12 /* GExerciseViewController.h */,
+				9A1562EC17D5097F00AA2E12 /* GExerciseViewController.m */,
+				9A54B0E21854D5D200DFB8AF /* GExerciseView.h */,
+				9A54B0E31854D5D200DFB8AF /* GExerciseView.m */,
+				9A54B0E51854D5E400DFB8AF /* GExerciseModel.h */,
+				9A54B0E61854D5E400DFB8AF /* GExerciseModel.m */,
+				9A104FD318FD5DC400FCC168 /* GfitExerciseViewController.h */,
+				9A104FD418FD5DC400FCC168 /* GfitExerciseViewController.m */,
+				9A104FD518FD5DC400FCC168 /* GfitExerciseViewController.xib */,
+			);
+			name = "Exercise View Controller";
+			sourceTree = "<group>";
+		};
+		9A86E20017FD5BF7002562D1 /* Settings View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A6971EE1875200300EBF0C0 /* GfitSettingsTableViewController.h */,
+				9A6971EF1875200300EBF0C0 /* GfitSettingsTableViewController.m */,
+				9AABF96C18D916B000863A43 /* GfitSettingMenuTableViewController.h */,
+				9AABF96D18D916B000863A43 /* GfitSettingMenuTableViewController.m */,
+				9A0D917A1909FD08009576CA /* GfitSettingsTableModel.h */,
+				9A0D917B1909FD08009576CA /* GfitSettingsTableModel.m */,
+			);
+			name = "Settings View Controller";
+			sourceTree = "<group>";
+		};
+		9A86E20117FD5C03002562D1 /* HumanModel View */ = {
+			isa = PBXGroup;
+			children = (
+				9A1E876817940E0A0082E461 /* HumanModelController.h */,
+				9A1E876917940E0A0082E461 /* HumanModelController.m */,
+			);
+			name = "HumanModel View";
+			sourceTree = "<group>";
+		};
+		9A98CE18189C3A02006133AD /* Main Menu Gesture Recognizers */ = {
+			isa = PBXGroup;
+			children = (
+				9A07F3D6187D5127004A6DE8 /* GfitBasePanGestureRecognizer.h */,
+				9A07F3D7187D5127004A6DE8 /* GfitBasePanGestureRecognizer.m */,
+				9A07F3AF187AA934004A6DE8 /* GfitSearchPanGestureRecognizer.h */,
+				9A07F3B0187AA934004A6DE8 /* GfitSearchPanGestureRecognizer.m */,
+				9A07F3AC187AA922004A6DE8 /* GfitScanPanGestureRecognizer.h */,
+				9A07F3AD187AA922004A6DE8 /* GfitScanPanGestureRecognizer.m */,
+				9A07F3C4187AEA8B004A6DE8 /* GfitScanningPanGestureRecognizer.h */,
+				9A07F3C5187AEA8B004A6DE8 /* GfitScanningPanGestureRecognizer.m */,
+				9A07F3D3187D3BE3004A6DE8 /* GfitScanningTapGestureRecognizer.h */,
+				9A07F3D4187D3BE3004A6DE8 /* GfitScanningTapGestureRecognizer.m */,
+				9A98CE19189C3A1C006133AD /* GfitSearchTapGestureRecognizer.h */,
+				9A98CE1A189C3A1C006133AD /* GfitSearchTapGestureRecognizer.m */,
+				9A98CE1C189C3A31006133AD /* GfitScanTapGestureRecognizer.h */,
+				9A98CE1D189C3A31006133AD /* GfitScanTapGestureRecognizer.m */,
+			);
+			name = "Main Menu Gesture Recognizers";
+			sourceTree = "<group>";
+		};
+		9A98CE22189C63B0006133AD /* Search View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A98CE1F189C63A7006133AD /* GfitSearchViewController.h */,
+				9A98CE20189C63A7006133AD /* GfitSearchViewController.m */,
+				9A98CE23189C64E4006133AD /* GfitSearchView.h */,
+				9A98CE24189C64E4006133AD /* GfitSearchView.m */,
+				9A98CE26189C66DB006133AD /* GfitSearchTextFieldView.h */,
+				9A98CE27189C66DB006133AD /* GfitSearchTextFieldView.m */,
+				9AAFD46A1860725F00E92C81 /* GfitSearchField.h */,
+				9AAFD46B1860725F00E92C81 /* GfitSearchField.m */,
+				9A07F3A01878CCE4004A6DE8 /* GfitSearchFieldCancelButton.h */,
+				9A07F3A11878CCE4004A6DE8 /* GfitSearchFieldCancelButton.m */,
+				9AC3C8CF1901DD8900DA9834 /* GfitSearchResult.h */,
+				9AC3C8D01901DD8900DA9834 /* GfitSearchResult.m */,
+				9A5394981906F34E002BC397 /* GfitSearchResultsModel.h */,
+				9A5394991906F34E002BC397 /* GfitSearchResultsModel.m */,
+				9ACC8F1A18069842004EE611 /* Search Table View Controller */,
+			);
+			name = "Search View Controller";
+			sourceTree = "<group>";
+		};
+		9A9BEC9118603E560040DC92 /* Main Menu View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A9BEC9818603FBE0040DC92 /* GfitMainMenuViewController.h */,
+				9A9BEC9918603FBE0040DC92 /* GfitMainMenuViewController.m */,
+				9A9BEC9518603EC70040DC92 /* GfitMainMenuView.h */,
+				9A9BEC9618603EC70040DC92 /* GfitMainMenuView.m */,
+				9A25658E1889EF9000058C3B /* GfitMainMenuDynamicAnimatorProtocol.h */,
+				9A2565871888F60400058C3B /* GfitMainMenuDynamicAnimator.h */,
+				9A2565881888F60400058C3B /* GfitMainMenuDynamicAnimator.m */,
+				9A256590188B3B6E00058C3B /* GfitMainMenuGridDataSource.h */,
+				9A256591188B3B6E00058C3B /* GfitMainMenuGridDataSource.m */,
+				9A98CE2F189CAF7D006133AD /* GfitMainMenuSearchInteractiveTransition.h */,
+				9A98CE30189CAF7D006133AD /* GfitMainMenuSearchInteractiveTransition.m */,
+				9A3E9A6F18B571FA00B64503 /* GfitMainMenuScanInteractiveTransition.h */,
+				9A3E9A7018B571FA00B64503 /* GfitMainMenuScanInteractiveTransition.m */,
+				9A3E9A7218B5ACAA00B64503 /* GfitMainMenuScanDynamicTransition.h */,
+				9A3E9A7318B5ACAA00B64503 /* GfitMainMenuScanDynamicTransition.m */,
+				9A3E9A7518B5ACD000B64503 /* GfitMainMenuSearchDynamicTransition.h */,
+				9A3E9A7618B5ACD000B64503 /* GfitMainMenuSearchDynamicTransition.m */,
+				9A98CE18189C3A02006133AD /* Main Menu Gesture Recognizers */,
+				9A54B10F18569FB900DFB8AF /* Main Menu View Objects */,
+				9A1977631845C39D00F712BB /* Hue View Controller */,
+			);
+			name = "Main Menu View Controller";
+			sourceTree = "<group>";
+		};
+		9ACC8F1A18069842004EE611 /* Search Table View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9AE5CC4318685C0D00B54FF1 /* GfitSearchTableViewController.h */,
+				9AE5CC4418685C0D00B54FF1 /* GfitSearchTableViewController.m */,
+				9AE5CC4618685D0D00B54FF1 /* GfitSearchTableView.h */,
+				9AE5CC4718685D0D00B54FF1 /* GfitSearchTableView.m */,
+				9AE5CC4918685D2000B54FF1 /* GfitSearchTableViewCell.h */,
+				9AE5CC4A18685D2000B54FF1 /* GfitSearchTableViewCell.m */,
+				9A07F39718782913004A6DE8 /* GfitSearchTableModel.h */,
+				9A07F39818782913004A6DE8 /* GfitSearchTableModel.m */,
+				9A866A0718F17889005E85A2 /* GfitSearchTableViewControllerCancelGestureProtocol.h */,
+			);
+			name = "Search Table View Controller";
+			sourceTree = "<group>";
+		};
+		9ACE01841685311C0055475D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9A57147C18D5F022000C76BE /* search_landscape_bg@2x.png */,
+				9A57147A18D5DE13000C76BE /* main_menu_landscape_bg@2x.png */,
+				9AE2C1E41872BDB5009A3022 /* root_navigation_drop_shadow@2x.png */,
+				9AE2C1D61872BDB0009A3022 /* menu_grid_activity_icon@2x.png */,
+				9AE2C1D71872BDB0009A3022 /* menu_grid_add_icon@2x.png */,
+				9AE2C1D81872BDB0009A3022 /* menu_grid_health_icon@2x.png */,
+				9AE2C1D91872BDB0009A3022 /* menu_grid_history_icon@2x.png */,
+				9AE2C1DA1872BDB0009A3022 /* menu_grid_info_icon@2x.png */,
+				9AE2C1DB1872BDB0009A3022 /* menu_grid_more_icon@2x.png */,
+				9AE2C1DC1872BDB0009A3022 /* menu_grid_settings_icon@2x.png */,
+				9AEDEE6E185B66A50071055C /* button_cancel_highlight@2x.png */,
+				9AEDEE6F185B66A50071055C /* button_scan_bg@2x.png */,
+				9AEDEE70185B66A50071055C /* button_scan_icon@2x.png */,
+				9AEDEE71185B66A50071055C /* button_search_bg@2x.png */,
+				9AEDEE72185B66A50071055C /* button_search_icon@2x.png */,
+				9AEDEE7D185B66A50071055C /* icon_scan@2x.png */,
+				9AEDEE7E185B66A50071055C /* Icon-512.png */,
+				9AEDEE7F185B66A50071055C /* Icon-1024.png */,
+				9AEDEE80185B66A50071055C /* Icon@2x.png */,
+				9AEDEE83185B66A50071055C /* search_separator@2x.png */,
+				9AEDEE9C185B68800071055C /* scan_status_bar@2x.png */,
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		9AEA2C3718865331000899A2 /* gfitappTests */ = {
+			isa = PBXGroup;
+			children = (
+				9ACF4A041888C41D007FD9D7 /* run.js */,
+				9AEA2C381886535A000899A2 /* dump.js */,
+				9AEA2C391886535A000899A2 /* iphone */,
+				9AEA2C3E1886535A000899A2 /* header.js */,
+			);
+			name = gfitappTests;
+			path = ../Resources;
+			sourceTree = "<group>";
+		};
+		9AEA2C391886535A000899A2 /* iphone */ = {
+			isa = PBXGroup;
+			children = (
+				9A09BC57188655BE008AF6D9 /* MainMenuActivity.js */,
+				9A09BC58188655BE008AF6D9 /* MainMenuElements.js */,
+				9A09BC59188655BE008AF6D9 /* MainMenuGestures.js */,
+				9A09BC5A188655BE008AF6D9 /* MainMenuHealth.js */,
+				9A09BC5B188655BE008AF6D9 /* MainMenuHistory.js */,
+				9A09BC5C188655BE008AF6D9 /* MainMenuScanCode.js */,
+				9A09BC5D188655BE008AF6D9 /* MainMenuSearch.js */,
+				9A09BC5E188655BE008AF6D9 /* MainMenuSettings.js */,
+				9A09BC5F188656FD008AF6D9 /* MainMenuTests.js */,
+				9AEA2C3A1886535A000899A2 /* MainMenuGestures.js */,
+				9AEA2C3B1886535A000899A2 /* RootNavigation.js */,
+			);
+			name = iphone;
+			path = integration/iphone;
+			sourceTree = SOURCE_ROOT;
+		};
+		9AF6607917E583B8009DA081 /* Graph Objects */ = {
+			isa = PBXGroup;
+			children = (
+				9AF6609217E5AC19009DA081 /* DetailViewController.h */,
+				9AF6609317E5AC19009DA081 /* DetailViewController.m */,
+				9AF6608C17E5843F009DA081 /* PlotItem.h */,
+				9AF6608D17E5843F009DA081 /* PlotItem.m */,
+				9AF6608317E5842D009DA081 /* ColoredBarChart.h */,
+				9AF6608417E5842D009DA081 /* ColoredBarChart.m */,
+				9AF6608517E5842D009DA081 /* GradientScatterPlot.h */,
+				9AF6608617E5842D009DA081 /* GradientScatterPlot.m */,
+				9AF6608717E5842D009DA081 /* RealTimePlot.h */,
+				9AF6608817E5842D009DA081 /* RealTimePlot.m */,
+			);
+			name = "Graph Objects";
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A315A1E165F5FF8007D4494 /* gfitapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A315A5E165F5FF9007D4494 /* Build configuration list for PBXNativeTarget "gfitapp" */;
+			buildPhases = (
+				A5D5F3AACCEF44D0B5D9A1B0 /* Check Pods Manifest.lock */,
+				9A315A1B165F5FF8007D4494 /* Sources */,
+				9A315A1C165F5FF8007D4494 /* Frameworks */,
+				9A315A1D165F5FF8007D4494 /* Resources */,
+				87FCD6D7593041B8A5B2050E /* Copy Pods Resources */,
+				8D67C3BC1AEAD82907E4D984 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gfitapp;
+			productName = giterdone;
+			productReference = 9A315A1F165F5FF8007D4494 /* gfitapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A315A16165F5FF8007D4494 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GD;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Gaurav Khanna";
+				TargetAttributes = {
+					9A315A1E165F5FF8007D4494 = {
+						DevelopmentTeam = 7EVCZNNHS8;
+					};
+				};
+			};
+			buildConfigurationList = 9A315A19165F5FF8007D4494 /* Build configuration list for PBXProject "gfitapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9A315A14165F5FF8007D4494;
+			productRefGroup = 9A315A20165F5FF8007D4494 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A315A1E165F5FF8007D4494 /* gfitapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A315A1D165F5FF8007D4494 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AEDEE94185B66A50071055C /* icon_scan@2x.png in Resources */,
+				9AE2C1E01872BDB0009A3022 /* menu_grid_history_icon@2x.png in Resources */,
+				9AEDEE96185B66A50071055C /* Icon-1024.png in Resources */,
+				9AE2C1E21872BDB0009A3022 /* menu_grid_more_icon@2x.png in Resources */,
+				9AE2C1E11872BDB0009A3022 /* menu_grid_info_icon@2x.png in Resources */,
+				9A57147D18D5F022000C76BE /* search_landscape_bg@2x.png in Resources */,
+				9AE2C1E31872BDB0009A3022 /* menu_grid_settings_icon@2x.png in Resources */,
+				9AEDEE85185B66A50071055C /* button_cancel_highlight@2x.png in Resources */,
+				9AE5CC4D186862AB00B54FF1 /* Localizable.strings in Resources */,
+				9AEDEE87185B66A50071055C /* button_scan_icon@2x.png in Resources */,
+				9AE2C1DD1872BDB0009A3022 /* menu_grid_activity_icon@2x.png in Resources */,
+				9AA0F92117EE558F0022C9AA /* Images.xcassets in Resources */,
+				9AE2C1DE1872BDB0009A3022 /* menu_grid_add_icon@2x.png in Resources */,
+				9AEDEE9D185B68800071055C /* scan_status_bar@2x.png in Resources */,
+				9AEDEE9A185B66A50071055C /* search_separator@2x.png in Resources */,
+				9AE2C1E51872BDB5009A3022 /* root_navigation_drop_shadow@2x.png in Resources */,
+				9AEDEE95185B66A50071055C /* Icon-512.png in Resources */,
+				9A57147B18D5DE13000C76BE /* main_menu_landscape_bg@2x.png in Resources */,
+				9AEDEE86185B66A50071055C /* button_scan_bg@2x.png in Resources */,
+				9AEDEE97185B66A50071055C /* Icon@2x.png in Resources */,
+				9AE2C1DF1872BDB0009A3022 /* menu_grid_health_icon@2x.png in Resources */,
+				9A104FD718FD5DC400FCC168 /* GfitExerciseViewController.xib in Resources */,
+				9AEDEE89185B66A50071055C /* button_search_icon@2x.png in Resources */,
+				9A202D1917C6ECD100AFC2C9 /* LocalizableStartup.strings in Resources */,
+				9AEDEE88185B66A50071055C /* button_search_bg@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		87FCD6D7593041B8A5B2050E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gfitapp/Pods-gfitapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D67C3BC1AEAD82907E4D984 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gfitapp/Pods-gfitapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5D5F3AACCEF44D0B5D9A1B0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A315A1B165F5FF8007D4494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC3C8D11901DD8900DA9834 /* GfitSearchResult.m in Sources */,
+				9A315A30165F5FF8007D4494 /* main.m in Sources */,
+				9A315A34165F5FF8007D4494 /* GfitAppDelegate.m in Sources */,
+				9A57147918D5A6E0000C76BE /* GfitHorizontalRightEdgePanGestureRecognizer.m in Sources */,
+				9AF2219A18A600D10090E066 /* GfitHorizontalSlidingTabBarController.m in Sources */,
+				9A9BEC9718603EC70040DC92 /* GfitMainMenuView.m in Sources */,
+				9AAFD40C186044FE00E92C81 /* GfitHueViewController.m in Sources */,
+				9A104FD618FD5DC400FCC168 /* GfitExerciseViewController.m in Sources */,
+				9A0DF19D1854BC7300BACEED /* gfitapp-Constants.m in Sources */,
+				9A54B1021856886A00DFB8AF /* UIView+GAnimateBlock.m in Sources */,
+				9A79336C1866107600E6F3CC /* GfitCameraViewController.m in Sources */,
+				9A57147618D5A6D2000C76BE /* GfitHorizontalLeftEdgePanGestureRecognizer.m in Sources */,
+				9A0D917C1909FD08009576CA /* GfitSettingsTableModel.m in Sources */,
+				9A07F3AE187AA922004A6DE8 /* GfitScanPanGestureRecognizer.m in Sources */,
+				9A2F9015189B5AAF00A7413A /* GfitSearchButton.m in Sources */,
+				9A68F01A18855E6400EE5F85 /* UIWindow+SBWindow.m in Sources */,
+				9A71C78218607EDA00377AF1 /* GfitSearchButtonView.m in Sources */,
+				9AA559BE1874D1BC0022D239 /* GfitFont.m in Sources */,
+				9AE5CC4818685D0D00B54FF1 /* GfitSearchTableView.m in Sources */,
+				9AAFD4121860588300E92C81 /* GfitMenuGridController.m in Sources */,
+				9A256592188B3B6E00058C3B /* GfitMainMenuGridDataSource.m in Sources */,
+				9A3E9A7418B5ACAA00B64503 /* GfitMainMenuScanDynamicTransition.m in Sources */,
+				9A6971F01875200300EBF0C0 /* GfitSettingsTableViewController.m in Sources */,
+				9A67831E18F1458B00F267E1 /* GfitHTTPSessionManager.m in Sources */,
+				9A98CE31189CAF7D006133AD /* GfitMainMenuSearchInteractiveTransition.m in Sources */,
+				9AB8540C1876CBF600B54BE5 /* GfitActivityViewController.m in Sources */,
+				9AF221B018A635DF0090E066 /* GfitHorizontalSlidingTransitionDropShadowView.m in Sources */,
+				9AF2218E18A4EB9E0090E066 /* GfitSerialOperationQueue.m in Sources */,
+				9AA559D31874EA5C0022D239 /* GfitHealthView.m in Sources */,
+				9AE5CC4B18685D2000B54FF1 /* GfitSearchTableViewCell.m in Sources */,
+				9A827D23186CE48C000F9C61 /* GfitSearchField.m in Sources */,
+				9AE5CC311866B69600B54FF1 /* GfitCameraView.m in Sources */,
+				9A98CE1E189C3A31006133AD /* GfitScanTapGestureRecognizer.m in Sources */,
+				9AAFD419186059DB00E92C81 /* GfitMenuGridCell.m in Sources */,
+				9AA559D61874EA670022D239 /* GfitHealthModel.m in Sources */,
+				9A5FAFCD1859A33400713793 /* gdebug.m in Sources */,
+				9AA22098186D116C0010FA06 /* GfitScanButtonView.m in Sources */,
+				9AA559D01874EA2F0022D239 /* GfitHealthViewController.m in Sources */,
+				9A57147018D567E2000C76BE /* GfitHorizontalEdgePanPercentDrivenInteractiveTransition.m in Sources */,
+				9A98CE1B189C3A1C006133AD /* GfitSearchTapGestureRecognizer.m in Sources */,
+				9A1833E4190B1346001ED759 /* UIView+RecursiveLayout.m in Sources */,
+				9A07F3C6187AEA8B004A6DE8 /* GfitScanningPanGestureRecognizer.m in Sources */,
+				9A07F3D5187D3BE3004A6DE8 /* GfitScanningTapGestureRecognizer.m in Sources */,
+				9A53949A1906F34F002BC397 /* GfitSearchResultsModel.m in Sources */,
+				9AAFD4161860597C00E92C81 /* GfitMenuGridLayout.m in Sources */,
+				9A0D9188190A0617009576CA /* GfitRootNavigationDropShadowView.m in Sources */,
+				9A9BEC9A18603FBE0040DC92 /* GfitMainMenuViewController.m in Sources */,
+				9AC02B3F1886A9B80098806E /* GfitBezierTimingLayer.m in Sources */,
+				9A666BFB183B6F670006765D /* UIView+GDropShadow.m in Sources */,
+				9A1833D8190AFD2B001ED759 /* GfitContentFakeNavigationDelegate.m in Sources */,
+				9A98CE25189C64E4006133AD /* GfitSearchView.m in Sources */,
+				9A6971F6187527EB00EBF0C0 /* GfitHistoryViewController.m in Sources */,
+				9A98CE28189C66DB006133AD /* GfitSearchTextFieldView.m in Sources */,
+				9A07F3BD187AB9D7004A6DE8 /* GfitScanDraggableView.m in Sources */,
+				9AF221B618A80D620090E066 /* GfitMainMenuNavigationController.m in Sources */,
+				9A3E9A7118B571FA00B64503 /* GfitMainMenuScanInteractiveTransition.m in Sources */,
+				9A0D9184190A0596009576CA /* GfitBaseScreenEdgePanGestureRecognizer.m in Sources */,
+				9AABF96E18D916B000863A43 /* GfitSettingMenuTableViewController.m in Sources */,
+				9A1833DB190B0822001ED759 /* GfitContentNavigationBar.m in Sources */,
+				9AF221B318A80D370090E066 /* GfitContentNavigationController.m in Sources */,
+				9A98CE21189C63A7006133AD /* GfitSearchViewController.m in Sources */,
+				9AE5CC4518685C0D00B54FF1 /* GfitSearchTableViewController.m in Sources */,
+				9A3D61E4188B6563009E66A1 /* UIColor+GfitImage.m in Sources */,
+				9A2565891888F60400058C3B /* GfitMainMenuDynamicAnimator.m in Sources */,
+				9AEEA77E188BC97F00F27A3E /* GfitCameraFocusView.m in Sources */,
+				9A07F3B1187AA934004A6DE8 /* GfitSearchPanGestureRecognizer.m in Sources */,
+				9A07F3BA187AB9CA004A6DE8 /* GfitSearchDraggableView.m in Sources */,
+				9A0D918B190A0622009576CA /* GfitFakeNavigationBar.m in Sources */,
+				9A07F3A21878CCE4004A6DE8 /* GfitSearchFieldCancelButton.m in Sources */,
+				9A07F3D8187D5127004A6DE8 /* GfitBasePanGestureRecognizer.m in Sources */,
+				9A07F39C1878C42B004A6DE8 /* GfitScanButton.m in Sources */,
+				9A0D9182190A040D009576CA /* GfitContentNavigationView.m in Sources */,
+				9A3D6D4B17F28DDB00C875DA /* RedViewController.m in Sources */,
+				9A3E9A7718B5ACD000B64503 /* GfitMainMenuSearchDynamicTransition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9A25659F188B5C5D00058C3B /* Testflight */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "E0A8365F-7EB1-4647-8CE9-40BE32DCBE77";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WARNING_CFLAGS = (
+					"-Weverything",
+					"-Wno-objc-missing-property-synthesis",
+				);
+			};
+			name = Testflight;
+		};
+		9A2565A0188B5C5D00058C3B /* Testflight */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CC2D1A7A9176A0DFF919E06 /* Pods-gfitapp.testflight.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_STATIC_ANALYZER_MODE = deep;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gfitapp/gfitapp-Prefix.pch";
+				INFOPLIST_FILE = "gfitapp/gfitappTestFlight-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gkapps.gfitapp;
+				PRODUCT_NAME = gfitapp;
+				PROVISIONING_PROFILE = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Testflight;
+		};
+		9A315A5C165F5FF9007D4494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "A1A8F186-16B1-482B-AC10-EECBF08F118F";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				WARNING_CFLAGS = (
+					"-Weverything",
+					"-Wno-objc-missing-property-synthesis",
+				);
+			};
+			name = Debug;
+		};
+		9A315A5D165F5FF9007D4494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "A1A8F186-16B1-482B-AC10-EECBF08F118F";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WARNING_CFLAGS = (
+					"-Weverything",
+					"-Wno-objc-missing-property-synthesis",
+				);
+			};
+			name = Release;
+		};
+		9A315A5F165F5FF9007D4494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECE895F0922E2C39C0BBBA1A /* Pods-gfitapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gfitapp/gfitapp-Prefix.pch";
+				INFOPLIST_FILE = "gfitapp/gfitapp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gkapps.gfitapp;
+				PRODUCT_NAME = gfitapp;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9A315A60165F5FF9007D4494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99CABE1E6BDDBDFFF2E7C60D /* Pods-gfitapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gfitapp/gfitapp-Prefix.pch";
+				INFOPLIST_FILE = "gfitapp/gfitapp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gkapps.gfitapp;
+				PRODUCT_NAME = gfitapp;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A315A19165F5FF8007D4494 /* Build configuration list for PBXProject "gfitapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A315A5C165F5FF9007D4494 /* Debug */,
+				9A315A5D165F5FF9007D4494 /* Release */,
+				9A25659F188B5C5D00058C3B /* Testflight */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A315A5E165F5FF9007D4494 /* Build configuration list for PBXNativeTarget "gfitapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A315A5F165F5FF9007D4494 /* Debug */,
+				9A315A60165F5FF9007D4494 /* Release */,
+				9A2565A0188B5C5D00058C3B /* Testflight */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A315A16165F5FF8007D4494 /* Project object */;
+}

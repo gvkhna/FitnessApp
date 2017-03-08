@@ -1,0 +1,27 @@
+platform :ios, '7.0'
+
+pod 'AFNetworking'
+#pod 'Overcoat'
+pod 'TestFlightSDK'
+#pod 'UIResponder+KeyboardCache'
+pod 'DAKeyboardControl'
+pod 'libextobjc/EXTScope'
+pod 'ReflectionView'
+#pod 'RestKit'
+#pod 'JGAFImageCache'
+
+#pod 'MGBox2'
+#pod 'TRSDialScrollView'
+#pod 'SIAlertView'
+#pod 'InAppSettingsKit'
+
+#pod 'CorePlot', :podspec => 'Podspecs/CorePlot.podspec'
+pod 'CorePlot'
+
+pod 'Reveal-iOS-SDK'
+pod 'tuneup_js'
+pod 'mechanic_js', :podspec => 'Podspecs/mechanic_js.podspec'
+
+pod 'BufferedNavigationController', :podspec => 'Podspecs/BufferedNavigationController.podspec'
+#pod 'EGOTableViewPullRefresh', :podspec => 'Podspecs/EGOTableViewPullRefresh.podspec'
+pod 'EstimoteSDK'

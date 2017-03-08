@@ -1,0 +1,116 @@
+
+// To check if a library is compiled with CocoaPods you
+// can use the `COCOAPODS` macro definition which is
+// defined in the xcconfigs so it is available in
+// headers also when they are imported in the client
+// project.
+
+
+// AFNetworking
+#define COCOAPODS_POD_AVAILABLE_AFNetworking
+#define COCOAPODS_VERSION_MAJOR_AFNetworking 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking 3
+#define COCOAPODS_VERSION_PATCH_AFNetworking 1
+
+// AFNetworking/NSURLConnection
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_NSURLConnection
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_NSURLConnection 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_NSURLConnection 3
+#define COCOAPODS_VERSION_PATCH_AFNetworking_NSURLConnection 1
+
+// AFNetworking/NSURLSession
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_NSURLSession
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_NSURLSession 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_NSURLSession 3
+#define COCOAPODS_VERSION_PATCH_AFNetworking_NSURLSession 1
+
+// AFNetworking/Reachability
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_Reachability
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_Reachability 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_Reachability 3
+#define COCOAPODS_VERSION_PATCH_AFNetworking_Reachability 1
+
+// AFNetworking/Security
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_Security
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_Security 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_Security 3
+#define COCOAPODS_VERSION_PATCH_AFNetworking_Security 1
+
+// AFNetworking/Serialization
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_Serialization
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_Serialization 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_Serialization 3
+#define COCOAPODS_VERSION_PATCH_AFNetworking_Serialization 1
+
+// AFNetworking/UIKit
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_UIKit
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_UIKit 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_UIKit 3
+#define COCOAPODS_VERSION_PATCH_AFNetworking_UIKit 1
+
+// BufferedNavigationController
+#define COCOAPODS_POD_AVAILABLE_BufferedNavigationController
+#define COCOAPODS_VERSION_MAJOR_BufferedNavigationController 0
+#define COCOAPODS_VERSION_MINOR_BufferedNavigationController 0
+#define COCOAPODS_VERSION_PATCH_BufferedNavigationController 1
+
+// CorePlot
+#define COCOAPODS_POD_AVAILABLE_CorePlot
+#define COCOAPODS_VERSION_MAJOR_CorePlot 1
+#define COCOAPODS_VERSION_MINOR_CorePlot 5
+#define COCOAPODS_VERSION_PATCH_CorePlot 1
+
+// DAKeyboardControl
+#define COCOAPODS_POD_AVAILABLE_DAKeyboardControl
+#define COCOAPODS_VERSION_MAJOR_DAKeyboardControl 2
+#define COCOAPODS_VERSION_MINOR_DAKeyboardControl 4
+#define COCOAPODS_VERSION_PATCH_DAKeyboardControl 0
+
+// EstimoteSDK
+#define COCOAPODS_POD_AVAILABLE_EstimoteSDK
+#define COCOAPODS_VERSION_MAJOR_EstimoteSDK 2
+#define COCOAPODS_VERSION_MINOR_EstimoteSDK 0
+#define COCOAPODS_VERSION_PATCH_EstimoteSDK 1
+
+// ReflectionView
+#define COCOAPODS_POD_AVAILABLE_ReflectionView
+#define COCOAPODS_VERSION_MAJOR_ReflectionView 1
+#define COCOAPODS_VERSION_MINOR_ReflectionView 1
+#define COCOAPODS_VERSION_PATCH_ReflectionView 0
+
+// Reveal-iOS-SDK
+#define COCOAPODS_POD_AVAILABLE_Reveal_iOS_SDK
+#define COCOAPODS_VERSION_MAJOR_Reveal_iOS_SDK 1
+#define COCOAPODS_VERSION_MINOR_Reveal_iOS_SDK 0
+#define COCOAPODS_VERSION_PATCH_Reveal_iOS_SDK 4
+
+// TestFlightSDK
+#define COCOAPODS_POD_AVAILABLE_TestFlightSDK
+#define COCOAPODS_VERSION_MAJOR_TestFlightSDK 3
+#define COCOAPODS_VERSION_MINOR_TestFlightSDK 0
+#define COCOAPODS_VERSION_PATCH_TestFlightSDK 2
+
+// libextobjc/EXTScope
+#define COCOAPODS_POD_AVAILABLE_libextobjc_EXTScope
+#define COCOAPODS_VERSION_MAJOR_libextobjc_EXTScope 0
+#define COCOAPODS_VERSION_MINOR_libextobjc_EXTScope 4
+#define COCOAPODS_VERSION_PATCH_libextobjc_EXTScope 0
+
+// libextobjc/RuntimeExtensions
+#define COCOAPODS_POD_AVAILABLE_libextobjc_RuntimeExtensions
+#define COCOAPODS_VERSION_MAJOR_libextobjc_RuntimeExtensions 0
+#define COCOAPODS_VERSION_MINOR_libextobjc_RuntimeExtensions 4
+#define COCOAPODS_VERSION_PATCH_libextobjc_RuntimeExtensions 0
+
+// mechanic_js
+#define COCOAPODS_POD_AVAILABLE_mechanic_js
+#define COCOAPODS_VERSION_MAJOR_mechanic_js 0
+#define COCOAPODS_VERSION_MINOR_mechanic_js 2
+#define COCOAPODS_VERSION_PATCH_mechanic_js 0
+
+// tuneup_js
+#define COCOAPODS_POD_AVAILABLE_tuneup_js
+#define COCOAPODS_VERSION_MAJOR_tuneup_js 1
+#define COCOAPODS_VERSION_MINOR_tuneup_js 2
+#define COCOAPODS_VERSION_PATCH_tuneup_js 1
+

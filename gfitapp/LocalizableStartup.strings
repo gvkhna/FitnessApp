@@ -1,0 +1,32 @@
+/* 
+  LocalizableStartup.strings
+  gfitapp
+
+  Created by Gaurav Khanna on 8/22/13.
+  Copyright (c) 2013 Gaurav Khanna. All rights reserved.
+  
+  @note selectively used on startup
+*/
+
+/* Main Menu */
+
+// Navigation Title
+"Main Menu" = "Main Menu";
+// Search Button
+"Search" = "Search";
+// Scan Code Button
+"Scan Code" = "Scan Code";
+// Health Icon
+"HEALTH" = "HEALTH";
+// History Icon
+"HISTORY" = "HISTORY";
+// Activity Icon
+"ACTIVITY" = "ACTIVITY";
+// Settings Icon
+"SETTINGS" = "SETTINGS";
+
+
+/* Search Page */
+
+// Cancel Button
+"CANCEL" = "CANCEL";

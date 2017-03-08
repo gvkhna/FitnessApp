@@ -1,0 +1,1 @@
+PODS_REFLECTIONVIEW_OTHER_LDFLAGS = -framework QuartzCore

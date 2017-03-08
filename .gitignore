@@ -1,0 +1,25 @@
+# osx noise
+.DS_Store
+profile
+
+# Exclude temp nibs and swap files
+*~.nib
+*.swp
+
+# xcode noise
+build/*
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+*.xcworkspace
+xcuserdata
+
+# svn & cvs
+.svn
+CVS
+
+# Cocoapods
+Pods/*

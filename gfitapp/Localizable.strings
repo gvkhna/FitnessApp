@@ -1,0 +1,41 @@
+/* 
+  Localizable.strings
+  gfitapp
+
+  Created by Gaurav Khanna on 12/23/13.
+  Copyright (c) 2013 Gaurav Khanna. All rights reserved.
+ 
+  @note loaded by default NSLocalizedString()
+*/
+
+
+/* Health Menu Page */
+
+// Navigation Title
+"Health" = "Health";
+
+
+/* Exercise Machine Page */
+
+"ADD" = "ADD";
+
+"INFO" = "INFO";
+
+"ACTIVITY" = "ACTIVITY";
+
+"MORE" = "MORE";
+
+
+
+
+/*
+ *  Settings Page
+ */
+
+"Settings" = "Settings";
+
+"SUPPORT" = "SUPPORT";
+
+"ABOUT GFIT" = "ABOUT GFIT";
+
+"GFITAPP_VERSION_STRING" = "Gfit Version";
